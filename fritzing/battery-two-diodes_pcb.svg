@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='7.71534in' height='3.97615in' viewBox='0 0 7715.34 3976.15' >
+<g partID='32920'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="board">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="#ffffff" height="2214.22" stroke="#111111" fill-opacity="0.5" id="boardoutline" stroke-width="8"/>
+</g>
+</g></g><g partID='32921'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen0">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
+</g>
+</g></g><g partID='34000'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+</g>
+</g></g><g partID='38310'><g transform='translate(1381.11,1817.27)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+ <rect xmlns="http://www.w3.org/2000/svg" width="58" x="41" y="41" fill="none" height="58" stroke="rgb(255, 191, 0)" id="square" stroke-width="20"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="70" stroke="rgb(255, 191, 0)" id="connector0pin" r="29" stroke-width="20"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="170" stroke="rgb(255, 191, 0)" id="connector1pin" r="29" stroke-width="20"/>
+</g>
+</g></g></g><g partID='39450'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+</g>
+</g></g><g partID='34001'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+ <g xmlns="http://www.w3.org/2000/svg" id="copper0">
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+ </g>
+</g>
+</g></g><g partID='38311'><g transform='translate(1381.11,1817.27)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+ <g xmlns="http://www.w3.org/2000/svg" id="copper0">
+  <rect xmlns="http://www.w3.org/2000/svg" width="58" x="41" y="41" fill="none" height="58" stroke="rgb(255, 191, 0)" id="square" stroke-width="20"/>
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="70" stroke="rgb(255, 191, 0)" id="connector0pin" r="29" stroke-width="20"/>
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="170" stroke="rgb(255, 191, 0)" id="connector1pin" r="29" stroke-width="20"/>
+ </g>
+</g>
+</g></g></g><g partID='39451'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+ <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+ <g xmlns="http://www.w3.org/2000/svg" id="copper0">
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
+  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
+ </g>
+</g>
+</g></g><g partID='96760'><line stroke-linecap='round' stroke='#33ffc5' x1='636.008' y1='1791.42' x2='1186.89' y2='1883.23' stroke-width='5.55556' /></g><g partID='96780'><line stroke-linecap='round' stroke='#ab58a2' x1='7152.16' y1='140.011' x2='1334.64' y2='1880.23' stroke-width='5.55556' /></g><g partID='96800'><line stroke-linecap='round' stroke='#8c3b00' x1='1035.59' y1='1781.1' x2='7551.87' y2='138.946' stroke-width='5.55556' /></g><g partID='32922'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
+</g>
+</g></g><g partID='34002'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="364" y2="5" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="5" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="114" y2="55" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="114" y2="105" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="114" y2="105" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="314" y2="105" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="364" y2="55" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="364" y2="5" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="105" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="114" y2="55" stroke-width="10" x2="89"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="364" y2="55" stroke-width="10" x2="389"/>
+</g>
+</g></g><g partID='38312'><g transform='translate(1381.11,1817.27)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="20" stroke-width="10" x1="20" y2="220" x2="20"/>
+ <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="220" stroke-width="10" x1="20" y2="220" x2="120"/>
+ <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="220" stroke-width="10" x1="120" y2="20" x2="120"/>
+ <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="20" stroke-width="10" x1="120" y2="20" x2="20"/>
+ <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="55" stroke-width="5" x1="20" y2="20" x2="55"/>
+ <!-- 120 -->
+</g>
+</g></g></g><g partID='39452'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="364" y2="5" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="5" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="114" y2="55" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="114" y2="105" stroke-width="10" x2="114"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="114" y2="105" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="314" y2="105" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="105" x1="364" y2="55" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="364" y2="5" stroke-width="10" x2="364"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="105" stroke-width="10" x2="314"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="114" y2="55" stroke-width="10" x2="89"/>
+ <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="364" y2="55" stroke-width="10" x2="389"/>
+</g>
+</g></g><g partID='34000' id='partLabel'><g transform='translate(1050.11,1654.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D2</text></g></g></g><g partID='38310' id='partLabel'><g transform='translate(1331.11,1689.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>VCC1</text></g></g></g><g partID='39450' id='partLabel'><g transform='translate(7615.34,0)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D1</text></g></g></g></svg>

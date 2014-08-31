@@ -1,0 +1,266 @@
+<!--
+.. title: Segmentkuva simulaator
+.. author: lauri.vosandi@gmail.com
+.. license: cc-by-3
+.. tags: private, Arduino, Estonian IT College
+.. date: 2013-10-31
+-->
+
+<script type="text/javascript" src="js/segment-display-simulator.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+
+<style>
+.segment_toggles {
+    margin: 8px 0 0 0;
+    clear: left;
+}
+
+.segment_toggles span {
+    float: left;
+    display: block-inline;
+    margin: 4px;
+    
+}
+
+.segment_toggles span label {
+    margin-left: 20px;
+}
+
+input[type='checkbox'] {
+    float: left;
+}
+
+div.input.segment_connection_list label {
+    float: left;
+    width: 8em;
+
+}
+
+div.input.segment_connection_list select {
+    clear: left;
+    margin: 4px auto auto 8em;
+}
+
+object[type="image/svg+xml"] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+</style>
+
+<div class="section">
+
+    <h2>Sissejuhatus</h2>
+
+    <p>Segmentkuva kasutatakse paljudes elektroonikaseadmetes alustades käekellast
+    lõpetades mikrolaineahjuga. Segmentkuva eeliseks on see, et vaid seitsme
+    jalaga on võimalik kuvada kõik kümnendsüsteemi ning kuueteistkümnendsüsteemi arvud.
+    Osadel segmentkuvadel on ka komakoht.</p>
+
+</div>
+
+<div class="section">
+    <h2>Segmendid</h2>
+
+    <!-- TODO: Manipulate individual g elements of SVG image instead of layering images -->
+    <div class="led_segment_display" style="width:119px; height: 167px;position:relative; display:block-inline; float:right;">
+        <object type="image/svg+xml" data="img/7segment_z.svg"/>
+        <object type="image/svg+xml" class="segment_a" data="img/7segment_a.svg"/>
+        <object type="image/svg+xml" class="segment_b" data="img/7segment_b.svg"/>
+        <object type="image/svg+xml" class="segment_c" data="img/7segment_c.svg"/>
+        <object type="image/svg+xml" class="segment_d" data="img/7segment_d.svg"/>
+        <object type="image/svg+xml" class="segment_e" data="img/7segment_e.svg"/>
+        <object type="image/svg+xml" class="segment_f" data="img/7segment_f.svg"/>
+        <object type="image/svg+xml" class="segment_g" data="img/7segment_g.svg"/>
+        <object type="image/svg+xml" class="segment_dp" data="img/7segment_dp.svg"/>
+    </div>
+
+    <p>Algajale võib segmentkuva omajagu hämmingut pakkuda</p>
+
+
+    <div class="segment_toggles">
+        <span>
+            <input id="segment_g_enabled" onChange="toggleSegment('g')" type="checkbox" checked/>
+            <label for="segment_g_enabled">Segment G</label>
+        </span>
+        <span>
+            <input id="segment_f_enabled" onChange="toggleSegment('f')" type="checkbox" checked/>
+            <label for="segment_f_enabled">Segment F</label>
+        </span>
+        <span>
+            <input id="segment_a_enabled" onChange="toggleSegment('a')" type="checkbox" checked/>
+            <label for="segment_a_enabled">Segment A</label>
+        </span>
+        <span>
+            <input id="segment_b_enabled" onChange="toggleSegment('b')" type="checkbox" checked/>
+            <label for="segment_b_enabled">Segment B</label>
+        </span>
+
+    </div>
+
+    <div class="segment_toggles">
+
+        <span>
+            <input id="segment_e_enabled" onChange="toggleSegment('e')" type="checkbox" checked/>
+            <label for="segment_e_enabled">Segment E</label>
+        </span>
+
+      
+        <span>
+            <input id="segment_d_enabled" onChange="toggleSegment('d')" type="checkbox" checked/>
+            <label for="segment_d_enabled">Segment D</label>
+        </span>
+
+        <span>
+            <input id="segment_c_enabled" onChange="toggleSegment('c')" type="checkbox" checked/>
+            <label for="segment_c_enabled">Segment C</label>
+        </span>
+
+        <span>
+            <input id="segment_dp_enabled" onChange="toggleSegment('dp')" type="checkbox" checked/>
+            <label for="segment_dp_enabled">Segment DP</label>
+        </span>
+    </div>
+
+    <p style="clear:left;">
+    Mõne teatud sümboli laadimiseks vajuta nuppu:
+    </p>
+
+    <button onClick="preloadDigit(0x0)">0</button>
+    <button onClick="preloadDigit(0x1)">1</button>
+    <button onClick="preloadDigit(0x2)">2</button>
+    <button onClick="preloadDigit(0x3)">3</button>
+    <button onClick="preloadDigit(0x4)">4</button>
+    <button onClick="preloadDigit(0x5)">5</button>
+    <button onClick="preloadDigit(0x6)">6</button>
+    <button onClick="preloadDigit(0x7)">7</button>
+    <button onClick="preloadDigit(0x8)">8</button>
+    <button onClick="preloadDigit(0x9)">9</button>
+    <button onClick="preloadDigit(0xa)">A</button>
+    <button onClick="preloadDigit(0xb)">b</button>
+    <button onClick="preloadDigit(0xc)">C</button>
+    <button onClick="preloadDigit(0xd)">d</button>
+    <button onClick="preloadDigit(0xe)">E</button>
+    <button onClick="preloadDigit(0xf)">F</button>
+
+    <p>Üksikute segmentide sisse-välja lülitamisest ainuüksi palju kasu pole.
+    Tihtipeale kirjutatakse funktsioon, mis lihtsustab täisarvu väärtuse kuvamist:</p>
+
+    <pre id="code">
+        char SEGMENT_MAPPING[] = {
+            0x7e,0x30,0x6d,0x79, // 0x0, 0x1, 0x2, 0x3
+            0x33,0x5b,0x5f,0x70, // 0x4, 0x5, 0x6, 0x7
+            0x7f,0x7b,0x77,0x1f, // 0x8, 0x9, 0xa, 0xb
+            0x4e,0x3d,0x4f,0x47  // 0xc, 0xd, 0xe, 0xf
+        };
+
+        int PIN_ASSIGNMENT[] = {2, 3, 4, 5, 6, 7, 8, 9};
+
+        void segmentDisplayPrint(int *assignment, char value, char dot) {
+            char bits = SEGMENT_MAPPING[value];
+            for (char j = 0; j < 8; j++) {
+                pinMode(assignment[j], OUTPUT);
+            }
+            for (char j = 0; j < 7; j++) {
+                digitalWrite(assignment[j], bits >> j & 1);
+            }
+            digitalWrite(assignment[7], dot);
+        }
+
+        void setup() {
+            segmentDisplayPrint(PIN_ASSIGNMENT, 8, HIGH);
+        }
+        void loop(){
+            for(int i = 0; i < 16; i++){
+                segmentDisplayPrint(PIN_ASSIGNMENT, i, HIGH);
+                delay(600);
+            }
+            delay(100);
+        }
+    </pre>
+
+</div>
+<div class="section">
+
+    <h2>Mitme segmentkuva kasutamine</h2>
+
+    <p>
+    Kombineerides mitu segmentkuva võib ehitada mitmekohalise ujukoma arvu näitamise
+    võimekusega kasutajaliidese, nt temperatuuri või õhuniiskuse näidik.
+    Mitme segmentkuva puhul kasutatakse tavaliselt ka nihkeregistreid selleks et
+    säästa mikrokontrolleri väljaviike.
+    Iga kuva küljes on näiteks 74HC595 8-bitine nihkeregister ning need on 
+    jadamisi ühendatud mikrokontrolleri külge.
+    Sellisel juhul on mikrokontrollerisse ühendatud vaid viis jalga:
+    toide, maa, kell (*clock*), andmed (*data*) ja lukustamine (*latch*).
+    </p>
+</div>
+
+<!--
+
+<h2>Connecting</h2>
+
+<p>Connecting a 7-segment display directly to a microcontroller is easy.
+On the otherhand this makes 7-8 pins of microcontroller unusable for other
+cool stuff!</p>
+
+
+<div class="input segment_connection_list">
+
+    <div>
+        <label for="target_board">Target board:</label>
+        <select id="target_board" onChange="updateBoard();">
+            <option value="uno">Arduino Uno</option>
+            <option value="mega">Arduino Mega 2560</option>
+        </select>
+    </div>
+    <div>
+        <label for="port">Segment A:</label>
+        <select id="input_segment_a_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment B:</label>
+        <select id="input_segment_b_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment C:</label>
+        <select id="input_segment_c_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment D:</label>
+        <select id="input_segment_a_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment E:</label>
+        <select id="input_segment_e_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment F:</label>
+        <select id="input_segment_f_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment G:</label>
+        <select id="input_segment_g_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+    <div>
+        <label for="port">Segment DP:</label>
+        <select id="input_segment_dp_connection" class="input segment_connection" onChange="updateWiring();"></select>
+    </div>
+</div>
+
+-->
+
+<div class="section">
+    <h2>Viited</h2>
+    
+    <ul>
+        <li><a href="http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html">
+            Arduino and 7 Segment LED</a></li>
+        <li><a href="http://www.sqlskills.com/blogs/paulselec/post/arduino-cascading-shift-registers-to-drive-7-segment-displays.aspx">
+            cascading shift registers to drive 7-segment displays with PC input</a></li>
+    </ul>
+</div>
+

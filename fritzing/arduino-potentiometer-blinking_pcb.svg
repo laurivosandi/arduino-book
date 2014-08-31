@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='6.6736in' height='2.25555in' viewBox='0 0 6673.6 2255.55' >
+<g partID='12140'><g transform='translate(6.94844,33.3333)' ><g xmlns="http://www.w3.org/2000/svg" id="board">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="#ffffff" height="2214.22" stroke="#111111" fill-opacity="0.5" id="boardoutline" stroke-width="8"/>
+</g>
+</g></g><g partID='12141'><g transform='translate(6.94844,33.3333)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen0">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
+</g>
+</g></g><g partID='12180'><g transform='translate(569.444,107.782)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g transform="matrix(1, 0, 0, 1, 0, 114.722)">
+ <g  id="copper0">
+  <g >
+   <rect  width="58" x="41" y="41" fill="none" height="58" stroke="#FFBF00" id="square" stroke-width="13.8889"/>
+   <circle  fill="none" cx="70.0001" cy="69.9999" stroke="#FFBF00" id="connector0pin" r="29" stroke-width="13.8889"/>
+   <circle  fill="none" cx="69.9862" cy="170" stroke="#FFBF00" id="connector1pin" r="29" stroke-width="13.8889"/>
+   <circle  fill="none" cx="70.0001" cy="270" stroke="#FFBF00" id="connector2pin" r="29" stroke-width="13.8889"/>
+   <circle  fill="none" cx="365.278" cy="-48.5833" stroke="#FFBF00" id="noconnector" r="53.0973" stroke-width="17.8389"/>
+   <circle  fill="none" cx="365.278" cy="392.5" stroke="#FFBF00" id="noconnector_1_" r="53.0973" stroke-width="17.8389"/>
+  </g>
+ </g>
+</g>
+</g></g></g><g partID='12390'><g transform='translate(681.437,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+<circle fill="none" cx="2999.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector1pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector257pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3099.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector2pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3199.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector3pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector4pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector5pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="600" stroke="#F7BD13" id="connector353pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector6pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3599.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector7pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1439.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector241pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1999.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector8pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2099.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector9pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2199.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector10pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector11pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1400" stroke="#F7BD13" id="connector369pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector12pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector13pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2599.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector14pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2699.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector15pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2199.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector265pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="200" stroke="#F7BD13" id="connector345pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1000" stroke="#F7BD13" id="connector361pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1800" stroke="#F7BD13" id="connector377pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1039.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector237pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1799.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector261pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector269pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="400" stroke="#F7BD13" id="connector349pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="800" stroke="#F7BD13" id="connector357pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1200" stroke="#F7BD13" id="connector365pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3399.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector46pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1600" stroke="#F7BD13" id="connector373pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3299.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector47pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3199.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector48pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3099.94" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector49pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2999.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector50pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2899.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector51pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector52pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2699.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector53pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="839.958" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector235pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1239.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector239pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1639.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector243pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1199.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector255pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1599.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector259pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2399.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector263pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1999.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector267pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector343pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="300" stroke="#F7BD13" id="connector347pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="500" stroke="#F7BD13" id="connector351pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="700" stroke="#F7BD13" id="connector355pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="900" stroke="#F7BD13" id="connector359pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1100" stroke="#F7BD13" id="connector363pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1300" stroke="#F7BD13" id="connector367pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1500" stroke="#F7BD13" id="connector371pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1700" stroke="#F7BD13" id="connector375pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="739.944" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector234pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="939.958" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector236pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1139.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector238pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1339.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector240pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1539.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector242pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1099.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector254pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector256pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector258pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1699.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector260pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2499.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector262pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2299.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector264pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2099.94" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector266pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1899.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector268pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector344pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="200" stroke="#F7BD13" id="connector346pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="300" stroke="#F7BD13" id="connector348pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="400" stroke="#F7BD13" id="connector350pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="500" stroke="#F7BD13" id="connector352pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="600" stroke="#F7BD13" id="connector354pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="700" stroke="#F7BD13" id="connector356pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="800" stroke="#F7BD13" id="connector358pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="900" stroke="#F7BD13" id="connector360pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1000" stroke="#F7BD13" id="connector362pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1100" stroke="#F7BD13" id="connector364pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1200" stroke="#F7BD13" id="connector366pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1300" stroke="#F7BD13" id="connector368pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1400" stroke="#F7BD13" id="connector370pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1500" stroke="#F7BD13" id="connector372pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1600" stroke="#F7BD13" id="connector374pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1700" stroke="#F7BD13" id="connector376pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1800" stroke="#F7BD13" id="connector378pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2899.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector0pad" r="24.3056" stroke-width="13,88888888888889"/>
+</g>
+</g></g><g partID='12181'><g transform='translate(569.444,107.782)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g transform="matrix(1, 0, 0, 1, 0, 114.722)">
+ <g  id="copper1">
+  <g >
+   <g  id="copper0">
+    <rect  width="58" x="41" y="41" fill="none" height="58" stroke="#FFBF00" id="square" stroke-width="13.8889"/>
+    <circle  fill="none" cx="70.0001" cy="69.9999" stroke="#FFBF00" id="connector0pin" r="29" stroke-width="13.8889"/>
+    <circle  fill="none" cx="69.9862" cy="170" stroke="#FFBF00" id="connector1pin" r="29" stroke-width="13.8889"/>
+    <circle  fill="none" cx="70.0001" cy="270" stroke="#FFBF00" id="connector2pin" r="29" stroke-width="13.8889"/>
+    <circle  fill="none" cx="365.278" cy="-48.5833" stroke="#FFBF00" id="noconnector" r="53.0973" stroke-width="17.8389"/>
+    <circle  fill="none" cx="365.278" cy="392.5" stroke="#FFBF00" id="noconnector_1_" r="53.0973" stroke-width="17.8389"/>
+   </g>
+  </g>
+ </g>
+</g>
+</g></g></g><g partID='12391'><g transform='translate(681.437,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+<g xmlns="http://www.w3.org/2000/svg" id="copper0">
+<circle fill="none" cx="2999.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector1pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector257pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3099.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector2pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3199.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector3pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector4pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector5pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="600" stroke="#F7BD13" id="connector353pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector6pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3599.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector7pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1439.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector241pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1999.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector8pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2099.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector9pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2199.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector10pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector11pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1400" stroke="#F7BD13" id="connector369pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2399.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector12pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector13pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2599.94" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector14pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2699.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector15pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2199.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector265pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="200" stroke="#F7BD13" id="connector345pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1000" stroke="#F7BD13" id="connector361pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1800" stroke="#F7BD13" id="connector377pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1039.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector237pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1799.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector261pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector269pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="400" stroke="#F7BD13" id="connector349pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="800" stroke="#F7BD13" id="connector357pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1200" stroke="#F7BD13" id="connector365pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3399.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector46pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1600" stroke="#F7BD13" id="connector373pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3299.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector47pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3199.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector48pad" r="26.4028" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3099.94" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector49pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2999.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector50pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2899.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector51pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector52pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2699.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector53pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="839.958" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector235pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1239.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector239pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1639.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector243pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1199.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector255pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1599.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector259pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2399.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector263pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1999.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector267pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector343pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="300" stroke="#F7BD13" id="connector347pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="500" stroke="#F7BD13" id="connector351pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="700" stroke="#F7BD13" id="connector355pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="900" stroke="#F7BD13" id="connector359pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1100" stroke="#F7BD13" id="connector363pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1300" stroke="#F7BD13" id="connector367pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1500" stroke="#F7BD13" id="connector371pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3699.97" xmlns="http://www.w3.org/2000/svg" cy="1700" stroke="#F7BD13" id="connector375pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="739.944" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector234pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="939.958" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector236pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1139.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector238pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1339.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector240pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1539.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector242pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1099.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector254pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1299.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector256pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1499.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector258pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1699.96" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector260pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2499.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector262pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2299.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector264pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2099.94" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector266pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="1899.97" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector268pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="100" stroke="#F7BD13" id="connector344pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="200" stroke="#F7BD13" id="connector346pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="300" stroke="#F7BD13" id="connector348pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="400" stroke="#F7BD13" id="connector350pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="500" stroke="#F7BD13" id="connector352pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="600" stroke="#F7BD13" id="connector354pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="700" stroke="#F7BD13" id="connector356pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="800" stroke="#F7BD13" id="connector358pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="900" stroke="#F7BD13" id="connector360pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1000" stroke="#F7BD13" id="connector362pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1100" stroke="#F7BD13" id="connector364pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1200" stroke="#F7BD13" id="connector366pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1300" stroke="#F7BD13" id="connector368pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1400" stroke="#F7BD13" id="connector370pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1500" stroke="#F7BD13" id="connector372pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1600" stroke="#F7BD13" id="connector374pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1700" stroke="#F7BD13" id="connector376pad" r="25.8333" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="3799.96" xmlns="http://www.w3.org/2000/svg" cy="1800" stroke="#F7BD13" id="connector378pad" r="24.3056" stroke-width="13,88888888888889"/>
+<circle fill="none" cx="2899.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector0pad" r="24.3056" stroke-width="13,88888888888889"/>
+</g>
+</g>
+</g></g><g partID='95390'><line stroke-linecap='round' stroke='#8c3b00' x1='403.693' y1='197.843' x2='2165.66' y2='2061.13' stroke-width='5.55556' /></g><g partID='95410'><line stroke-linecap='round' stroke='#fa50e6' x1='2663.45' y1='2063.54' x2='306.359' y2='194.921' stroke-width='5.55556' /></g><g partID='95430'><line stroke-linecap='round' stroke='#000000' x1='1698.49' y1='177.778' x2='212.333' y2='177.782' stroke-width='5.55556' /></g><g partID='12182'><g transform='translate(569.444,107.782)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g transform="matrix(1, 0, 0, 1, 0, 114.722)">
+ <g  id="silkscreen">
+  <g >
+   <polyline  fill="none" points="409.125,-114.722,519.681,-114.722,519.681,454.722,409.125,454.722" stroke="#FFFFFF" id="0.1.1.0" stroke-width="7.05834"/>
+   <polyline  fill="none" points="315.375,454.722,0,454.722,0,-114.722,315.375,-114.722" stroke="#FFFFFF" id="0.1.1.1" stroke-width="7.05834"/>
+  </g>
+ </g>
+</g>
+</g></g></g><g partID='12142'><g transform='translate(6.94844,33.3333)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
+</g>
+</g></g><g partID='12392'><g transform='translate(681.437,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+ <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-width="8" d="M3796.35,4l99.8333,99.6111l0,398.472l99.8333,99.6111l0,1344.86l-99.8333,99.6528l0,10.5833c2.25,19.3889,-11.6389,36.9444,-31,39.2222c-2.73611,0.305556,-5.5,0.305556,-8.30556,0L42.7917,2096.01c-19.3889,2.27778,-36.9861,-11.5833,-39.2917,-30.9583c-0.305556,-2.75,-0.319444,-5.5,-0.0138889,-8.27778L3.48611,43.2222C1.22222,23.8194,15.125,6.25,34.5139,4c2.75,-0.319444,5.5,-0.319444,8.27778,0L3796.35,4"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1875" stroke-width="12" x1="3699.97" y2="1895" x2="3699.97"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1895" stroke-width="12" x1="3699.97" y2="1895" x2="3799.96"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1895" stroke-width="12" x1="3799.96" y2="1875" x2="3799.96"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="12" x1="3699.97" y2="25" x2="3699.97"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="25" stroke-width="12" x1="3699.97" y2="25" x2="3799.96"/>
+ <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="25" stroke-width="12" x1="3799.96" y2="50" x2="3799.96"/>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:ADCH</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X08</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3474.94" y2="1950" x2="3524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3524.97" y2="1975" x2="3549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3549.96" y2="2024.99" x2="3549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3549.96" y2="2050" x2="3524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3349.94" y2="1950" x2="3374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3374.97" y2="1950" x2="3424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3424.96" y2="1975" x2="3449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3449.97" y2="2024.99" x2="3449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3449.97" y2="2050" x2="3424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3424.96" y2="2050" x2="3374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3374.97" y2="2024.99" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3474.94" y2="1975" x2="3449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3449.97" y2="2050" x2="3474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3524.97" y2="2050" x2="3474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3174.96" y2="1950" x2="3224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3224.94" y2="1975" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3249.97" y2="2024.99" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3249.97" y2="2050" x2="3224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3249.97" y2="1950" x2="3274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3274.97" y2="1950" x2="3324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3324.97" y2="1975" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3349.94" y2="2024.99" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3349.94" y2="2050" x2="3324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3324.97" y2="2050" x2="3274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3274.97" y2="2024.99" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3049.96" y2="1950" x2="3074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3074.97" y2="1950" x2="3124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3124.97" y2="1975" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3149.97" y2="2024.99" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3149.97" y2="2050" x2="3124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3124.97" y2="2050" x2="3074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3074.97" y2="2024.99" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3174.96" y2="1975" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3149.97" y2="2050" x2="3174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3224.94" y2="2050" x2="3174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2874.97" y2="1950" x2="2924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2924.96" y2="1975" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2949.97" y2="2024.99" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2949.97" y2="2050" x2="2924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2949.97" y2="1950" x2="2974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2974.94" y2="1950" x2="3024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3024.97" y2="1975" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3049.96" y2="2024.99" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3049.96" y2="2050" x2="3024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3024.97" y2="2050" x2="2974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2974.94" y2="2024.99" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2849.94" y2="2024.99" x2="2849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2874.97" y2="1975" x2="2849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2849.94" y2="2050" x2="2874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2924.96" y2="2050" x2="2874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3574.97" y2="1950" x2="3624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3624.97" y2="1975" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="3649.97" y2="2024.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3649.97" y2="2050" x2="3624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="3574.97" y2="1975" x2="3549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="3549.96" y2="2050" x2="3574.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="3624.97" y2="2050" x2="3574.97"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:ADCL</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X08</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2574.97" y2="1950" x2="2624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2624.97" y2="1975" x2="2649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2649.97" y2="2024.99" x2="2649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2649.97" y2="2050" x2="2624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2449.97" y2="1950" x2="2474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2474.94" y2="1950" x2="2524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2524.97" y2="1975" x2="2549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2549.96" y2="2024.99" x2="2549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2549.96" y2="2050" x2="2524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2524.97" y2="2050" x2="2474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2474.94" y2="2024.99" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2574.97" y2="1975" x2="2549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2549.96" y2="2050" x2="2574.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2624.97" y2="2050" x2="2574.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2274.97" y2="1950" x2="2324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2324.97" y2="1975" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2349.94" y2="2024.99" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2349.94" y2="2050" x2="2324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2349.94" y2="1950" x2="2374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2374.97" y2="1950" x2="2424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2424.96" y2="1975" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2449.97" y2="2024.99" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2449.97" y2="2050" x2="2424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2424.96" y2="2050" x2="2374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2374.97" y2="2024.99" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2149.97" y2="1950" x2="2174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2174.96" y2="1950" x2="2224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2224.94" y2="1975" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2249.97" y2="2024.99" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2249.97" y2="2050" x2="2224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2224.94" y2="2050" x2="2174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2174.96" y2="2024.99" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2274.97" y2="1975" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2249.97" y2="2050" x2="2274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2324.97" y2="2050" x2="2274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1974.94" y2="1950" x2="2024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2024.97" y2="1975" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2049.96" y2="2024.99" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2049.96" y2="2050" x2="2024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2049.96" y2="1950" x2="2074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2074.97" y2="1950" x2="2124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2124.97" y2="1975" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2149.97" y2="2024.99" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2149.97" y2="2050" x2="2124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2124.97" y2="2050" x2="2074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2074.97" y2="2024.99" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1949.97" y2="2024.99" x2="1949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1974.94" y2="1975" x2="1949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1949.97" y2="2050" x2="1974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2024.97" y2="2050" x2="1974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2674.96" y2="1950" x2="2724.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2724.94" y2="1975" x2="2749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="2749.97" y2="2024.99" x2="2749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2749.97" y2="2050" x2="2724.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="2674.96" y2="1975" x2="2649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="2649.97" y2="2050" x2="2674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="2724.94" y2="2050" x2="2674.96"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:COMMUNICATION</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X08</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2824.97" y2="150" x2="2774.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2774.97" y2="125" x2="2749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2749.97" y2="75" x2="2749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2749.97" y2="50" x2="2774.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2949.97" y2="150" x2="2924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2924.96" y2="150" x2="2874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2874.97" y2="125" x2="2849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2849.94" y2="75" x2="2849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2849.94" y2="50" x2="2874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2874.97" y2="50" x2="2924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2924.96" y2="75" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2824.97" y2="125" x2="2849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2849.94" y2="50" x2="2824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2774.97" y2="50" x2="2824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3124.97" y2="150" x2="3074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3074.97" y2="125" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3049.96" y2="75" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3049.96" y2="50" x2="3074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3049.96" y2="150" x2="3024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3024.97" y2="150" x2="2974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2974.94" y2="125" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2949.97" y2="75" x2="2949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2949.97" y2="50" x2="2974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2974.94" y2="50" x2="3024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3024.97" y2="75" x2="3049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3249.97" y2="150" x2="3224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3224.94" y2="150" x2="3174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3174.96" y2="125" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3149.97" y2="75" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3149.97" y2="50" x2="3174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3174.96" y2="50" x2="3224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3224.94" y2="75" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3124.97" y2="125" x2="3149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3149.97" y2="50" x2="3124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3074.97" y2="50" x2="3124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3424.96" y2="150" x2="3374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3374.97" y2="125" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3349.94" y2="75" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3349.94" y2="50" x2="3374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3349.94" y2="150" x2="3324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3324.97" y2="150" x2="3274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3274.97" y2="125" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3249.97" y2="75" x2="3249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3249.97" y2="50" x2="3274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3274.97" y2="50" x2="3324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3324.97" y2="75" x2="3349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3449.97" y2="75" x2="3449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3424.96" y2="125" x2="3449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3449.97" y2="50" x2="3424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3374.97" y2="50" x2="3424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2724.94" y2="150" x2="2674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2674.96" y2="125" x2="2649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2649.97" y2="75" x2="2649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2649.97" y2="50" x2="2674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2724.94" y2="125" x2="2749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2749.97" y2="50" x2="2724.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2674.96" y2="50" x2="2724.94"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:F1</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:L1812</title>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:JP6</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X10</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1489.96" y2="50" x2="1514.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1514.96" y2="50" x2="1564.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1564.96" y2="75" x2="1589.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1589.96" y2="125" x2="1589.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1589.96" y2="150" x2="1564.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1564.96" y2="150" x2="1514.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1514.96" y2="125" x2="1489.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1314.96" y2="50" x2="1364.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1364.96" y2="75" x2="1389.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1389.96" y2="125" x2="1389.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1389.96" y2="150" x2="1364.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1389.96" y2="50" x2="1414.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1414.97" y2="50" x2="1464.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1464.96" y2="75" x2="1489.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1489.96" y2="125" x2="1489.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1489.96" y2="150" x2="1464.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1464.96" y2="150" x2="1414.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1414.97" y2="125" x2="1389.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1189.96" y2="50" x2="1214.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1214.96" y2="50" x2="1264.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1264.96" y2="75" x2="1289.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1289.97" y2="125" x2="1289.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1289.97" y2="150" x2="1264.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1264.96" y2="150" x2="1214.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1214.96" y2="125" x2="1189.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1314.96" y2="75" x2="1289.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1289.97" y2="150" x2="1314.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1364.96" y2="150" x2="1314.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1014.96" y2="50" x2="1064.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1064.96" y2="75" x2="1089.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1089.96" y2="125" x2="1089.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1089.96" y2="150" x2="1064.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1089.96" y2="50" x2="1114.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1114.96" y2="50" x2="1164.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1164.97" y2="75" x2="1189.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1189.96" y2="125" x2="1189.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1189.96" y2="150" x2="1164.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1164.97" y2="150" x2="1114.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1114.96" y2="125" x2="1089.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="889.958" y2="50" x2="914.972"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="914.972" y2="50" x2="964.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="964.958" y2="75" x2="989.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="989.958" y2="125" x2="989.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="989.958" y2="150" x2="964.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="964.958" y2="150" x2="914.972"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="914.972" y2="125" x2="889.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1014.96" y2="75" x2="989.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="989.958" y2="150" x2="1014.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1064.96" y2="150" x2="1014.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="714.958" y2="50" x2="764.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="764.958" y2="75" x2="789.972"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="789.972" y2="125" x2="789.972"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="789.972" y2="150" x2="764.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="789.972" y2="50" x2="814.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="814.958" y2="50" x2="864.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="864.958" y2="75" x2="889.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="889.958" y2="125" x2="889.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="889.958" y2="150" x2="864.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="864.958" y2="150" x2="814.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="814.958" y2="125" x2="789.972"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="689.958" y2="125" x2="689.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="714.958" y2="75" x2="689.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="689.958" y2="150" x2="714.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="764.958" y2="150" x2="714.958"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1614.96" y2="50" x2="1664.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1664.97" y2="75" x2="1689.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1689.96" y2="125" x2="1689.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1689.96" y2="150" x2="1664.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1614.96" y2="75" x2="1589.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1589.96" y2="150" x2="1614.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1664.97" y2="150" x2="1614.96"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:POWER</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X08</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1674.96" y2="1950" x2="1724.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1724.96" y2="1975" x2="1749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1749.97" y2="2024.99" x2="1749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1749.97" y2="2050" x2="1724.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1549.96" y2="1950" x2="1574.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1574.96" y2="1950" x2="1624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1624.97" y2="1975" x2="1649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1649.97" y2="2024.99" x2="1649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1649.97" y2="2050" x2="1624.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1624.97" y2="2050" x2="1574.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1574.96" y2="2024.99" x2="1549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1674.96" y2="1975" x2="1649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1649.97" y2="2050" x2="1674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1724.96" y2="2050" x2="1674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1374.97" y2="1950" x2="1424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1424.96" y2="1975" x2="1449.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1449.96" y2="2024.99" x2="1449.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1449.96" y2="2050" x2="1424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1449.96" y2="1950" x2="1474.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1474.96" y2="1950" x2="1524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1524.97" y2="1975" x2="1549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1549.96" y2="2024.99" x2="1549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1549.96" y2="2050" x2="1524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1524.97" y2="2050" x2="1474.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1474.96" y2="2024.99" x2="1449.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1249.97" y2="1950" x2="1274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1274.97" y2="1950" x2="1324.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1324.96" y2="1975" x2="1349.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1349.96" y2="2024.99" x2="1349.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1349.96" y2="2050" x2="1324.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1324.96" y2="2050" x2="1274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1274.97" y2="2024.99" x2="1249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1374.97" y2="1975" x2="1349.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1349.96" y2="2050" x2="1374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1424.96" y2="2050" x2="1374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1074.96" y2="1950" x2="1124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1124.97" y2="1975" x2="1149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1149.97" y2="2024.99" x2="1149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1149.97" y2="2050" x2="1124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1149.97" y2="1950" x2="1174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1174.96" y2="1950" x2="1224.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1224.96" y2="1975" x2="1249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1249.97" y2="2024.99" x2="1249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1249.97" y2="2050" x2="1224.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1224.96" y2="2050" x2="1174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1174.96" y2="2024.99" x2="1149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1049.96" y2="2024.99" x2="1049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1074.96" y2="1975" x2="1049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1049.96" y2="2050" x2="1074.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1124.97" y2="2050" x2="1074.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1774.97" y2="1950" x2="1824.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1824.96" y2="1975" x2="1849.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1975" stroke-width="6" x1="1849.96" y2="2024.99" x2="1849.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1849.96" y2="2050" x2="1824.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1950" stroke-width="6" x1="1774.97" y2="1975" x2="1749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2024.99" stroke-width="6" x1="1749.97" y2="2050" x2="1774.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="2050" stroke-width="6" x1="1824.96" y2="2050" x2="1774.97"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:PWML</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:1X08</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1924.96" y2="150" x2="1874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1874.97" y2="125" x2="1849.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1849.96" y2="75" x2="1849.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1849.96" y2="50" x2="1874.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2049.96" y2="150" x2="2024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2024.97" y2="150" x2="1974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1974.94" y2="125" x2="1949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1949.97" y2="75" x2="1949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1949.97" y2="50" x2="1974.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1974.94" y2="50" x2="2024.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2024.97" y2="75" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1924.96" y2="125" x2="1949.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1949.97" y2="50" x2="1924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1874.97" y2="50" x2="1924.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2224.94" y2="150" x2="2174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2174.96" y2="125" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2149.97" y2="75" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2149.97" y2="50" x2="2174.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2149.97" y2="150" x2="2124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2124.97" y2="150" x2="2074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2074.97" y2="125" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2049.96" y2="75" x2="2049.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2049.96" y2="50" x2="2074.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2074.97" y2="50" x2="2124.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2124.97" y2="75" x2="2149.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2349.94" y2="150" x2="2324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2324.97" y2="150" x2="2274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2274.97" y2="125" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2249.97" y2="75" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2249.97" y2="50" x2="2274.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2274.97" y2="50" x2="2324.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2324.97" y2="75" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2224.94" y2="125" x2="2249.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2249.97" y2="50" x2="2224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2174.96" y2="50" x2="2224.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2524.97" y2="150" x2="2474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2474.94" y2="125" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2449.97" y2="75" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2449.97" y2="50" x2="2474.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2449.97" y2="150" x2="2424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2424.96" y2="150" x2="2374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2374.97" y2="125" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2349.94" y2="75" x2="2349.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2349.94" y2="50" x2="2374.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2374.97" y2="50" x2="2424.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2424.96" y2="75" x2="2449.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="2549.96" y2="75" x2="2549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="2524.97" y2="125" x2="2549.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="2549.96" y2="50" x2="2524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="2474.94" y2="50" x2="2524.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1824.96" y2="150" x2="1774.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1774.97" y2="125" x2="1749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="1749.97" y2="75" x2="1749.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1749.97" y2="50" x2="1774.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="1824.96" y2="125" x2="1849.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="1849.96" y2="50" x2="1824.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="1774.97" y2="50" x2="1824.96"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:XIO</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:2X18</title>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3674.96" y2="75" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3649.97" y2="125" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3649.97" y2="150" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3674.96" y2="175" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="175" stroke-width="6" x1="3649.97" y2="225" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="225" stroke-width="6" x1="3649.97" y2="250" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="250" stroke-width="6" x1="3674.96" y2="275" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="275" stroke-width="6" x1="3649.97" y2="325" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="325" stroke-width="6" x1="3649.97" y2="350" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="350" stroke-width="6" x1="3674.96" y2="375" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="375" stroke-width="6" x1="3649.97" y2="425" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="425" stroke-width="6" x1="3649.97" y2="450" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="450" stroke-width="6" x1="3674.96" y2="475" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="475" stroke-width="6" x1="3649.97" y2="525" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="525" stroke-width="6" x1="3649.97" y2="550" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="550" stroke-width="6" x1="3674.96" y2="575" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="575" stroke-width="6" x1="3649.97" y2="625" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="625" stroke-width="6" x1="3649.97" y2="650" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3674.96" y2="50" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="50" stroke-width="6" x1="3824.97" y2="75" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="75" stroke-width="6" x1="3849.94" y2="125" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="125" stroke-width="6" x1="3849.94" y2="150" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3824.97" y2="175" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="175" stroke-width="6" x1="3849.94" y2="225" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="225" stroke-width="6" x1="3849.94" y2="250" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="250" stroke-width="6" x1="3824.97" y2="275" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="275" stroke-width="6" x1="3849.94" y2="325" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="325" stroke-width="6" x1="3849.94" y2="350" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="350" stroke-width="6" x1="3824.97" y2="375" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="375" stroke-width="6" x1="3849.94" y2="425" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="425" stroke-width="6" x1="3849.94" y2="450" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="450" stroke-width="6" x1="3824.97" y2="475" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="475" stroke-width="6" x1="3849.94" y2="525" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="525" stroke-width="6" x1="3849.94" y2="550" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="550" stroke-width="6" x1="3824.97" y2="575" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="575" stroke-width="6" x1="3849.94" y2="625" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="625" stroke-width="6" x1="3849.94" y2="650" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="650" stroke-width="6" x1="3824.97" y2="675" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="675" stroke-width="6" x1="3849.94" y2="725" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="725" stroke-width="6" x1="3849.94" y2="750" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="750" stroke-width="6" x1="3824.97" y2="775" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="775" stroke-width="6" x1="3849.94" y2="825" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="825" stroke-width="6" x1="3849.94" y2="850" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="850" stroke-width="6" x1="3824.97" y2="875" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="875" stroke-width="6" x1="3849.94" y2="925" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="925" stroke-width="6" x1="3849.94" y2="950" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="950" stroke-width="6" x1="3824.97" y2="975" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="975" stroke-width="6" x1="3849.94" y2="1025" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1025" stroke-width="6" x1="3849.94" y2="1050" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1050" stroke-width="6" x1="3824.97" y2="1075" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1075" stroke-width="6" x1="3849.94" y2="1125" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1125" stroke-width="6" x1="3849.94" y2="1149.99" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1149.99" stroke-width="6" x1="3824.97" y2="1175" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1175" stroke-width="6" x1="3849.94" y2="1225" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1250" stroke-width="6" x1="3824.97" y2="1225" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1250" stroke-width="6" x1="3824.97" y2="1274.99" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1325" stroke-width="6" x1="3849.94" y2="1274.99" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1325" stroke-width="6" x1="3849.94" y2="1350" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1350" stroke-width="6" x1="3824.97" y2="1375" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1425" stroke-width="6" x1="3849.94" y2="1375" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1425" stroke-width="6" x1="3849.94" y2="1450" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1450" stroke-width="6" x1="3824.97" y2="1475" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1524.99" stroke-width="6" x1="3849.94" y2="1475" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1524.99" stroke-width="6" x1="3849.94" y2="1550" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1550" stroke-width="6" x1="3824.97" y2="1575" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1625" stroke-width="6" x1="3849.94" y2="1575" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1625" stroke-width="6" x1="3849.94" y2="1649.99" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1649.99" stroke-width="6" x1="3824.97" y2="1675" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1725" stroke-width="6" x1="3849.94" y2="1675" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1725" stroke-width="6" x1="3849.94" y2="1750" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1750" stroke-width="6" x1="3824.97" y2="1774.99" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1825" stroke-width="6" x1="3849.94" y2="1774.99" x2="3849.94"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1825" stroke-width="6" x1="3849.94" y2="1850" x2="3824.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1850" stroke-width="6" x1="3674.96" y2="1825" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1825" stroke-width="6" x1="3649.97" y2="1774.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1750" stroke-width="6" x1="3674.96" y2="1774.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1750" stroke-width="6" x1="3674.96" y2="1725" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1725" stroke-width="6" x1="3649.97" y2="1675" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1649.99" stroke-width="6" x1="3674.96" y2="1675" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1649.99" stroke-width="6" x1="3674.96" y2="1625" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1575" stroke-width="6" x1="3649.97" y2="1625" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1575" stroke-width="6" x1="3649.97" y2="1550" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1550" stroke-width="6" x1="3674.96" y2="1524.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1475" stroke-width="6" x1="3649.97" y2="1524.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1475" stroke-width="6" x1="3649.97" y2="1450" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1450" stroke-width="6" x1="3674.96" y2="1425" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1425" stroke-width="6" x1="3649.97" y2="1375" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1350" stroke-width="6" x1="3674.96" y2="1375" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1350" stroke-width="6" x1="3674.96" y2="1325" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1325" stroke-width="6" x1="3649.97" y2="1274.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1250" stroke-width="6" x1="3674.96" y2="1274.99" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1250" stroke-width="6" x1="3674.96" y2="1225" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1225" stroke-width="6" x1="3649.97" y2="1175" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1149.99" stroke-width="6" x1="3674.96" y2="1175" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1149.99" stroke-width="6" x1="3674.96" y2="1125" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1125" stroke-width="6" x1="3649.97" y2="1075" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1050" stroke-width="6" x1="3674.96" y2="1075" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1050" stroke-width="6" x1="3674.96" y2="1025" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1025" stroke-width="6" x1="3649.97" y2="975" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="950" stroke-width="6" x1="3674.96" y2="975" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="950" stroke-width="6" x1="3674.96" y2="925" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="925" stroke-width="6" x1="3649.97" y2="875" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="850" stroke-width="6" x1="3674.96" y2="875" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="850" stroke-width="6" x1="3674.96" y2="825" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="825" stroke-width="6" x1="3649.97" y2="775" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="750" stroke-width="6" x1="3674.96" y2="775" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="750" stroke-width="6" x1="3674.96" y2="725" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="725" stroke-width="6" x1="3649.97" y2="675" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="650" stroke-width="6" x1="3674.96" y2="675" x2="3649.97"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="150" stroke-width="6" x1="3824.97" y2="150" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="250" stroke-width="6" x1="3824.97" y2="250" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="350" stroke-width="6" x1="3824.97" y2="350" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="450" stroke-width="6" x1="3824.97" y2="450" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="550" stroke-width="6" x1="3824.97" y2="550" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="650" stroke-width="6" x1="3824.97" y2="650" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="750" stroke-width="6" x1="3824.97" y2="750" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="850" stroke-width="6" x1="3824.97" y2="850" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="950" stroke-width="6" x1="3824.97" y2="950" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1050" stroke-width="6" x1="3824.97" y2="1050" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1149.99" stroke-width="6" x1="3824.97" y2="1149.99" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1250" stroke-width="6" x1="3824.97" y2="1250" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1350" stroke-width="6" x1="3824.97" y2="1350" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1450" stroke-width="6" x1="3824.97" y2="1450" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1550" stroke-width="6" x1="3824.97" y2="1550" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1649.99" stroke-width="6" x1="3824.97" y2="1649.99" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1750" stroke-width="6" x1="3824.97" y2="1750" x2="3674.96"/>
+   <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#FFFFFF" stroke-linecap="round" y1="1850" stroke-width="6" x1="3824.97" y2="1850" x2="3674.96"/>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:Z1</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:CT/CN0603</title>
+  </g>
+ </g>
+ <g xmlns="http://www.w3.org/2000/svg">
+  <title xmlns="http://www.w3.org/2000/svg">element:Z2</title>
+  <g xmlns="http://www.w3.org/2000/svg">
+   <title xmlns="http://www.w3.org/2000/svg">package:CT/CN0603</title>
+  </g>
+ </g>
+</g>
+</g></g><g partID='12180' id='partLabel'><g transform='translate(544.571,5.12222)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>R1</text></g></g></g><g partID='12390' id='partLabel'><g transform='translate(4684.72,0)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>Bauteil1</text></g></g></g></svg>

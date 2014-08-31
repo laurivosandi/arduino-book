@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title></title>
+
+</head>
+<body>
+<div class="document">
+
+
+<div class="section" id="sissejuhatus">
+<h1>Sissejuhatus</h1>
+<p>Osadel Arduino pesadel on katkestuste (<em>interrupt</em>) võimekus, mis lubab
+digitaalsisendi lugemist optimeerida. Selle asemel et tsüklis korduvalt
+<a class="reference external" href="arduino-digital-input.html">digitaalsisendi väärtust lugeda</a>,
+saab Arduino mikrokontrolleri programmeerida
+käivitama funktsiooni kui huvi pakkuv sündmus aset leiab.</p>
+<p>Arduino Uno puhul on katkestuste kasutamine võimalik pesadel 2 ning 3.
+Arduino Mega 2560 puhul on see lisaks veel toetatud pesadel 18, 19, 20 ja 21.
+Arduino Due puhul on katkestused võimalikud kõigil pesadel.</p>
+</div>
+<div class="section" id="katkestuste-liigid">
+<h1>Katkestuste liigid</h1>
+<p>Sündmuseid mille peale katkestuse funktsioon käivitatakse on laias
+laastus viite tüüpi:</p>
+<ul class="simple">
+<li><em>LOW</em> - Käivita funktsioon mil iganes digitaalsisend on madalal pingenivool.</li>
+<li><em>RISING</em> - Käivita funktsioon kui digitaalsisendi tõeväärtus muutub tõeseks.</li>
+<li><em>CHANGE</em> - Käivita funktsioon kui digitaalsisendi tõeväärtus muutub.</li>
+<li><em>FALLING</em> - Käivita funktsioon kui digitaalsisendi tõeväärtus muutub vääraks.</li>
+<li><em>HIGH</em> - Käivita funktsioon mil iganes digitaalsisend on kõrgel pingenivool,
+see funktsionaalsus on hetkel küll toetatud ainult Arduino Due mikrokontrolleril</li>
+</ul>
+<p>Arduino Uno ning Arduino Mega 2560 puhul on katkestused nummerdatud järgnevalt:</p>
+<ul class="simple">
+<li>Pesa nr 2 → Katkestus nr 0</li>
+<li>Pesa nr 3 → Katkestus nr 1</li>
+<li>Pesa nr 18 → Katkestus nr 5</li>
+<li>Pesa nr 19 → Katkestus nr 4</li>
+<li>Pesa nr 20 → Katkestus nr 3</li>
+<li>Pesa nr 21 → Katkestus nr 2</li>
+</ul>
+</div>
+<div class="section" id="koodinaide">
+<h1>Koodinäide</h1>
+<p>Nupuvajutust võib lugeda näiteks järngeva koodijupiga:</p>
+<pre class="code cpp literal-block">
+<span class="kt">int</span> <span class="n">led</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">button</span>  <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">buttonInterrupt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>         <span class="c1">// Seadista 13 jalg digitaalväljundiks
+</span>    <span class="n">pinMode</span><span class="p">(</span><span class="n">button</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>       <span class="c1">// Seadista 9 jalg digitaalsisndiks
+</span>    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">button</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>   <span class="c1">// Lülita sisse pull-up takisti
+</span>
+    <span class="c1">// Seosta sündmused funktsioonidega
+</span>    <span class="n">attachInterrupt</span><span class="p">(</span><span class="n">buttonInterrupt</span><span class="p">,</span> <span class="n">onButtonPressed</span><span class="p">,</span> <span class="n">FALLING</span><span class="p">);</span>
+    <span class="n">attachInterrupt</span><span class="p">(</span><span class="n">buttonInterrupt</span><span class="p">,</span> <span class="n">onButtonReleased</span><span class="p">,</span> <span class="n">RISING</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">onButtonPressed</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">onButtonReleased</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Tee midagi asjalikku
+</span><span class="p">}</span>
+</pre>
+<p>Skeemina kasutame sama mida kõige lihtsamaski
+<a class="reference external" href="arduino-digital-input.html">digitaalsisendi lugemise</a> näites:</p>
+<object class="align-center" data="fritzing/arduino-pushbutton_breadboard.svg" type="image/svg+xml">
+fritzing/arduino-pushbutton_breadboard.svg</object>
+</div>
+<div class="section" id="kokkuvote">
+<h1>Kokkuvõte</h1>
+<p>Katkestusi kasutades saame vabastada <em>loop()</em> funktsiooni nupu lugemisest
+ning seal hoopis midagi muud asjalikku teha. Tähele tuleks panna seda,
+et katkestuse funktsiooni (<em>interrupt</em> <em>handler</em>)
+sisu peaks olema nii lühike kui võimalik.
+Katkestuse funktsiooni käivitamisel salvestatakse mikrokontrolleri olek,
+ning muu sel ajal käitatud funktsioon pannakse pausile.
+Katkestuse funktsiooni lõpetamisel jätkab mikrokontroller samast kohast.</p>
+</div>
+<div class="section" id="viited">
+<h1>Viited</h1>
+<ul class="simple">
+<li><a class="reference external" href="http://arduino.cc/en/Reference/attachInterrupt">attachInterrupt()</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
