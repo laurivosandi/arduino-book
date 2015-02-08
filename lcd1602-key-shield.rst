@@ -1,8 +1,10 @@
-.. title: LCD1602 key shield
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College, HD44780
 .. date: 2014-06-05
+
+LCD1602 key shield
+==================
 
 Sissejuhatus
 ------------
@@ -12,7 +14,7 @@ mis istub ilusti Arduino Uno ja Arduino Mega selga. Iga sümbol koosneb
 5x7 pikslist ning kaheksat sümbolit on võimalik kasutajal ka
 kohandada.
 
-.. figure:: arduino/img/lcd1602-key-shield.jpg
+.. figure:: img/lcd1602-key-shield.jpg
 
     LCD1602 shield sobitub erinevate Arduino mudelitega
 
@@ -166,7 +168,7 @@ Analoogseid mooduleid leiab nii DealExtremest [#dx]_ kui eBayst.
 
 .. [#hd44780] `Hitachi HD44780 LCD controller <http://en.wikipedia.org/wiki/Hitachi_HD44780_LCD_controller>`_
 .. [#hd44780-datasheet] `HD44780 datasheet <https://www.sparkfun.com/datasheets/LCD/HD44780.pdf>`_
-.. [#s6a0069] `S6A0069 datasheet <www.cloverdisplay.com/pdf/S6A0069.pdf‎>`_
+.. [#s6a0069] `S6A0069 datasheet <http://www.cloverdisplay.com/pdf/S6A0069.pdf>`_
 .. [#liquidcrystal] `LiquidCrystal Library <http://arduino.cc/en/Reference/LiquidCrystal>`_
 .. [#conn] `HD44780 Character LCD Displays <http://www.protostack.com/blog/2010/03/character-lcd-displays-part-1/>`_
 .. [#prog] `How to connect an Arduino UNO to an LCD 1602 <http://electronics.stackexchange.com/questions/34178/how-to-connect-an-arduino-uno-to-an-lcd-1602>`_

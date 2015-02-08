@@ -1,16 +1,19 @@
-.. title: SN754410 quadruple half H-bridge driver
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. date: 2013-10-31
+
+SN754410 quadruple half H-bridge driver
+=======================================
 
 Sissejuhatus
 ------------
 
 SN754410 on oma olemuselt kaks H-silda kombineeritud ühte mikroskeemi:
 
-.. image:: img/sn754410.jpg
-    :align: center
+.. figure:: img/sn754410.jpg
+
+    SN754410 mikroskeem
 
 SN754410 *datasheet* annab ka väljaviikude tähistused:
 
@@ -61,8 +64,9 @@ sõltuvalt saadaolevate jalgade arvust:
 
 Kõige lihtsamas näites ühendame SN75510 mikroskeemi Arduino ning kahe mikromootoriga:
 
-.. image:: fritzing/sn754410-dual-dc-motor_breadboard.svg
-    :align: center
+.. figure:: fritzing/sn754410-dual-dc-motor_breadboard.svg
+
+    SN754410 abil kahe alalisvoolumootori juhtimine
 
 Arduino koodis seadistame violetsete kaablitega ühendatud väljaviigud
 pulsilaiusmodulatsiooni režiimi ning oranžide kaablitega ühendatud väljaviigud

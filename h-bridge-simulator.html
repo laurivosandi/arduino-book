@@ -1,174 +1,188 @@
-<!--
-.. title: H-silla simulaator
-.. author: lauri.vosandi@gmail.com
-.. license: cc-by-3
-.. tags: private, Arduino
-.. date: 2013-10-31
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>H-silla simulaator</title>
+    <meta charset="utf-8"/>
+    <meta name="language" content="et"/>
+    <meta name="author" content="Lauri Võsandi, lauri.vosandi@gmail.com"/>
+    <meta name="license" content="cc-by-3"/>
+    <meta name="tags" content="Arduino, Estonian IT College"/>
+    <meta name="published" content="2013-10-31"/>
+</head>
 
-<script type="text/javascript" src="js/h-bridge-simulator.js"></script>
-<script type="text/javascript" src="js/core.js"></script>
+<body>
+    <h1>H-silla simulaator</h1>
+    <div class="document">
 
-<style>
+        <script type="text/javascript" src="js/h-bridge-simulator.js">
+            // placeholder
+        </script>
+        <script type="text/javascript" src="js/core.js">
+            // placeholder
+        </script>
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-@-moz-keyframes spin {
-    0% { -moz-transform: rotate(0deg); }
-    100% { -moz-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-    0% {-webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-@-o-keyframes spin {
-    0% { -o-transform: rotate(0deg); }
-    100% { -o-transform: rotate(360deg); }
-}
+        <style>
 
-#wheel_left_expl, #wheel_right_expl {
-    text-align: center;
-    font-style: italic;
-    font-size: 10pt;
-    width: 300px;
-}
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @-moz-keyframes spin {
+            0% { -moz-transform: rotate(0deg); }
+            100% { -moz-transform: rotate(360deg); }
+        }
+        @-webkit-keyframes spin {
+            0% {-webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+        @-o-keyframes spin {
+            0% { -o-transform: rotate(0deg); }
+            100% { -o-transform: rotate(360deg); }
+        }
 
-.wheel.reverse, .wheel.forward {
-    animation: spin 4s linear 0s infinite normal;
-    -moz-animation: 4s linear 0s normal none infinite spin;
-    -webkit-animation: spin 4s linear 0s infinite normal;
-    -o-animation: spin 4s linear 0s infinite normal;
-}
+        #wheel_left_expl, #wheel_right_expl {
+            text-align: center;
+            font-style: italic;
+            font-size: 10pt;
+            width: 300px;
+        }
 
-.wheel.reverse {
-    animation-direction: reverse;
-    -moz-animation-direction: reverse;
-    -webkit-animation-direction: reverse;
-    -o-animation-direction: reverse;
-}
+        .wheel.reverse, .wheel.forward {
+            animation: spin 4s linear 0s infinite normal;
+            -moz-animation: 4s linear 0s normal none infinite spin;
+            -webkit-animation: spin 4s linear 0s infinite normal;
+            -o-animation: spin 4s linear 0s infinite normal;
+        }
 
-.wheels img {
-    margin: 0;
-    padding: 0;
-}
+        .wheel.reverse {
+            animation-direction: reverse;
+            -moz-animation-direction: reverse;
+            -webkit-animation-direction: reverse;
+            -o-animation-direction: reverse;
+        }
 
-.wheels {
-    float: right;
-}
+        .wheels img {
+            margin: 0;
+            padding: 0;
+        }
 
-.wheels p {
-    width: 250px;
-}
+        .wheels {
+            float: right;
+        }
 
-.wheels p .break,
-.wheels p .forward,
-.wheels p .reverse,
-.wheels p .duty_cycle,
-.wheels p .duty_cycle_percent {
-    display: none;
-}
+        .wheels p {
+            width: 250px;
+        }
 
-.code {
-    margin: 20px auto 20px 0px;
-}
+        .wheels p .break,
+        .wheels p .forward,
+        .wheels p .reverse,
+        .wheels p .duty_cycle,
+        .wheels p .duty_cycle_percent {
+            display: none;
+        }
 
-.code input, .code select {
-    width: auto;
-}
+        .code {
+            margin: 20px auto 20px 0px;
+        }
 
-.code p {
-    font-family: 'Ubuntu Mono';
-    line-height: 100%;
-    margin: 0;
-}
+        .code input, .code select {
+            width: auto;
+        }
 
-</style>
+        .code p {
+            font-family: 'Ubuntu Mono';
+            line-height: 100%;
+            margin: 0;
+        }
+
+        </style>
 
 
-<h2>Sissejuhatus</h2>
+        <h2>Sissejuhatus</h2>
 
-<p>H-sillast aru saamine võib algaja jaoks tõeline peavalu olla.
-Käesoleva skeemisimulaatori abil saab mängida H-silla sisenditega,
-enne kui reaalselt H-silla külge mootoreid ja mikrokontrollerit ühendama
-hakatakse.</p>
+        <p>H-sillast aru saamine võib algaja jaoks tõeline peavalu olla.
+        Käesoleva skeemisimulaatori abil saab mängida H-silla sisenditega,
+        enne kui reaalselt H-silla külge mootoreid ja mikrokontrollerit ühendama
+        hakatakse.</p>
 
-<div>
-    <label for="target_circuit">Skeem:</label>
-    <select id="target_circuit" onChange="updateBoard();">
-        <option
-            value="uno+sn754410">Arduino Uno + SN754410</option>
-    </select>
-</div>
+        <div>
+            <label for="target_circuit">Skeem:</label>
+            <select id="target_circuit" onChange="updateBoard();">
+                <option
+                    value="uno+sn754410">Arduino Uno + SN754410</option>
+            </select>
+        </div>
 
-<img src="fritzing/sn754410-dual-dc-motor_breadboard.png"/>
+        <object type="image/svg+xml" data="fritzing/sn754410-dual-dc-motor_breadboard.svg"/>
 
-<h2>Simulaator</h2>
+        <h2>Simulaator</h2>
 
-<div id="simulator" class="wheels">
-    <img id="wheel_left" class="wheel" src="img/wheel.svg"/>
-    <p id="wheel_left_expl">
-        <span>Vasakpoolne mootor</span>
-        <span class="free">vabajooks</span
-        ><span class="break">pidurdab</span
-        ><span class="forward">kiirendab edaspidi</span
-        ><span class="reverse">kiirendab tagurpidi</span
-        ><span class="duty_cycle">, töötsükkel</span>
-        <span class="duty_cycle_percent">0%</span>
+        <div id="simulator" class="wheels">
+            <object type="image/svg+xml" id="wheel_left" class="wheel" data="img/wheel.svg"/>
+            <p id="wheel_left_expl">
+                <span>Vasakpoolne mootor</span>
+                <span class="free">vabajooks</span
+                ><span class="break">pidurdab</span
+                ><span class="forward">kiirendab edaspidi</span
+                ><span class="reverse">kiirendab tagurpidi</span
+                ><span class="duty_cycle">, töötsükkel</span>
+                <span class="duty_cycle_percent">0%</span>
 
-    </p>
-    <img id="wheel_right" class="wheel" src="img/wheel.svg"/>
-    <p id="wheel_right_expl">
-        <span>Parempoolne mootor</span>
-        <span class="free">vabajooks</span
-        ><span class="break">pidurdab</span
-        ><span class="forward">kiirendab edaspidi</span
-        ><span class="reverse">kiirendab tagurpidi</span
-        ><span class="duty_cycle">, töötsükkel</span>
-        <span class="duty_cycle_percent">0%</span>
-    </p>
-</div>
+            </p>
+            <object type="image/svg+xml" id="wheel_right" class="wheel" data="img/wheel.svg"/>
+            <p id="wheel_right_expl">
+                <span>Parempoolne mootor</span>
+                <span class="free">vabajooks</span
+                ><span class="break">pidurdab</span
+                ><span class="forward">kiirendab edaspidi</span
+                ><span class="reverse">kiirendab tagurpidi</span
+                ><span class="duty_cycle">, töötsükkel</span>
+                <span class="duty_cycle_percent">0%</span>
+            </p>
+        </div>
 
-<p>
-Eeldades et mootorid on ühendatud nagu ülal näidatud,
-peaks järgneva koodi käivitamisel mootorid pöörlema nii nagu paremal
-näidatud:</p>
+        <p>
+        Eeldades et mootorid on ühendatud nagu ülal näidatud,
+        peaks järgneva koodi käivitamisel mootorid pöörlema nii nagu paremal
+        näidatud:</p>
 
-<pre class="code cpp literal-block">
-// SN754410 1,2EN pin
-analogWrite(9, <input id="wheel_left_en" type="number" value="0" min="0" max="255" step="1" onChange="reset('wheel_left');"/> );
+        <pre class="code cpp literal-block">
+        // SN754410 1,2EN pin
+        analogWrite(9, <input id="wheel_left_en" type="number" value="0" min="0" max="255" step="1" onChange="reset('wheel_left');"/> );
 
-// SN754410 1A pin
-digitalWrite(8, <select id="wheel_left_fwd" onChange="reset('wheel_left');">
-    <option value="0">LOW</option>
-    <option value="1">HIGH</option>
-</select> );
+        // SN754410 1A pin
+        digitalWrite(8, <select id="wheel_left_fwd" onChange="reset('wheel_left');">
+            <option value="0">LOW</option>
+            <option value="1">HIGH</option>
+        </select> );
 
-// SN754410 2A pin
-digitalWrite(7, <select id="wheel_left_rev" onChange="reset('wheel_left');">
-    <option value="0">LOW</option>
-    <option value="1">HIGH</option>
-</select> );
-    
-// SN754410 3,4EN pin
-analogWrite(5, <input id="wheel_right_en" type="number" value="0" min="0" max="255" step="1" onChange="reset('wheel_right');"/> );
+        // SN754410 2A pin
+        digitalWrite(7, <select id="wheel_left_rev" onChange="reset('wheel_left');">
+            <option value="0">LOW</option>
+            <option value="1">HIGH</option>
+        </select> );
+            
+        // SN754410 3,4EN pin
+        analogWrite(5, <input id="wheel_right_en" type="number" value="0" min="0" max="255" step="1" onChange="reset('wheel_right');"/> );
 
-// SN754410 3A pin
-digitalWrite(4, <select id="wheel_right_fwd" onChange="reset('wheel_right');">
-    <option value="0">LOW</option>
-    <option value="1">HIGH</option>
-</select> );
+        // SN754410 3A pin
+        digitalWrite(4, <select id="wheel_right_fwd" onChange="reset('wheel_right');">
+            <option value="0">LOW</option>
+            <option value="1">HIGH</option>
+        </select> );
 
-// SN754410 4A pin
-digitalWrite(3, <select title="0" id="wheel_right_rev" onChange="reset('wheel_right');">
-    <option value="0">LOW</option>
-    <option value="1">HIGH</option>
-</select> );
+        // SN754410 4A pin
+        digitalWrite(3, <select title="0" id="wheel_right_rev" onChange="reset('wheel_right');">
+            <option value="0">LOW</option>
+            <option value="1">HIGH</option>
+        </select> );
 
-</pre>
+        </pre>
 
-<div style="clear:both;">
-&nbsp;
-</div>
-
+        <div style="clear:both;">
+        &nbsp;
+        </div>
+        
+    </div>
+</body>

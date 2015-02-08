@@ -1,15 +1,16 @@
-.. title: Arduino digitaalväljund ja valgusdioodide juhtimine
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. tags: Tiigriülikool, Estonian IT College, Arduino, GPIO
 .. date: 2014-06-03
-.. language: et
 .. license: cc-by-3
+
+Arduino digitaalväljund ja valgusdioodide juhtimine
+===================================================
 
 Sissejuhatus
 ------------
 
 Digitaalväljundeid on Arduinol sama palju kui 
-`digitaalsisendeidki <arduino-digital-input.html>`_ [#arduino-digital-pins]_.
+`digitaalsisendeidki <digital-inputs.html>`_ [#arduino-digital-pins]_.
 Digitaalväljundi lubamiseks tuleb pesad seadistada väljundi režiimi
 *pinMode()* funktsiooni abil.
 Seejärel saab *digitalWrite()* funktsiooni abil iga

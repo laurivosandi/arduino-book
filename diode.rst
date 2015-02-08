@@ -1,4 +1,3 @@
-.. title: Diood
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Estonian IT College, Arduino, LED
@@ -16,10 +15,11 @@ ning see ei ole seotud toitepingega lineaarselt.
 Dioodil on teda läbiva voolu ülempiir, mille ületades dioodi eluiga 
 märgatavalt väheneb kuni kiire läbipõlemiseni.
 
-.. image:: img/diodes.jpg
-    :align: center
+.. figure:: img/diodes.jpg
+
+    Dioodid
 
 Dioodi põhimõttel toimivaid elektroonikakomponente on teisigi:
 
 * `Valgusdiood <led.html>`_
-* `Zener <zener.html>`_
+* Zener

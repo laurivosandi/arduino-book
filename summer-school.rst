@@ -1,8 +1,11 @@
-.. title: Arduino suvekool
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags:  Arduino
+.. flags: hidden
 .. date: 2013-10-31
+
+Arduino suvekool
+================
 
 Sissejuhatus
 ------------
@@ -54,7 +57,7 @@ elektroonika, loogika, robootika ja programeerimise teemadega.
 Täiendavad teemad
 -----------------
 
-* `Tetrise ning Ussimängu <nokia-5110-lcd-shield>`_ realiseerimine
+* `Tetrise ning Ussimängu <nokia-5110-lcd-shield.html>`_ realiseerimine
 * NFC kaardilugejad ja kaartide (Ühiskaart, ISIC jne) kasutamine
 * Vana mobiiltelefoni rakendamine koduvalvesüsteemi loomiseks
 * `TB-B-Gone <http://cornfieldelectronics.com/tvbgone/tvbg.home.php>`_

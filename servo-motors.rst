@@ -1,15 +1,17 @@
-.. title: Servomootorite juhtimine Arduinoga
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. date: 2014-06-07
+
+Servomootorite juhtimine Arduinoga
+==================================
 
 Sissejuhatus
 ------------
 
 Robootikas ning mudelismis kasutatavad servomootorid ehk servod on
 disainitud töötama 5V toitepingel ning sisendina kasutavad
-pulsilaiusmoduleeritud signaali.
+pulsilaiusmoduleeritud signaali [#servo]_.
 Servomootorist on tavaliselt välja toodud kolmejuhtmeline ühenduspesa:
 
 * Must või pruun on ühendatud maha ehk pingenivoole 0V.
@@ -18,14 +20,16 @@ Servomootorist on tavaliselt välja toodud kolmejuhtmeline ühenduspesa:
 
 Näide servomootorist:
 
-.. image:: img/servo.jpg
-    :align: center
+.. figure:: img/servo.jpg
+
+    Servomootor
 
 Servomootor koosneb alalisvoolumootorist, aeglustavast ülekannest ning
 kontrollerist, mis on suletud korpusesse:
 
-.. image:: img/servo-disassembled.jpg
-    :align: center
+.. figure:: img/servo-disassembled.jpg
+
+    Servomootor lahtivõetuna
 
 Odavamate servomootorite ülekanne on plastikust hammasratastega,
 kallimate puhul kasutatakse metallist hammasrattaid.
@@ -33,7 +37,7 @@ Servomootoreid on laias laastus kahte tüüpi: pildil näidatud
 kiirusekontrolliga servomootor ning positsioonikontrolliga servomootor,
 mis tavaliselt sisaldab potensiomeetrit mikrokontrolleri tagasideks.
 
-Arduino puhul saab kasutada *Servo* teeki, mis hõlbustab pesade seadistamist ning
+Arduino puhul saab kasutada *Servo* teeki [#servo-library]_, mis hõlbustab pesade seadistamist ning
 korrektse pulsilaiuse arvutamist kraadide järgi.
 *Servo* teek vajab taimereid mida kasutatakse pulsilaiusmodulatsiooni võimekuse
 jaoks Arduino Uno pesadel 9, 10 ning Arduino Mega 2560 puhul pesadel 11, 12.
@@ -54,6 +58,7 @@ pulsilaius tavaliselt korreleeritud järgnevalt:
 * 1.5ms - 0 kraadi
 * 2ms - 90 kraadi päripäeva
 
+
 Positsioonikontrolliga servomootor
 ----------------------------------
 Positsioonikontrolliga servomootoreid kasutatakse
@@ -62,12 +67,11 @@ Positsioonikontrolliga servomootor püüab etteantud pulsilaiusmodulatsiooni
 signaalile hoida servomootori võlli teatud nurga all.
 
 Käesolev näide eeldab, et on tutvust tehtud
-`analoogsisendi lugemisega <arduino-analog-input>`_.
+`analoogsisendi lugemisega <analog-inputs.html>`_.
 Tegu on kõige lihtsama anduri (*sensor*) ning täituri (*actuator*) kooslusega.
 Potensiomeetrit kasutatakse servomootorile nurga ette andmiseks.
 
-.. image:: fritzing/arduino-knob_breadboard.svg
-    :align: center
+.. figure:: fritzing/arduino-knob_breadboard.svg
 
 Arduinosse võib algatuseks üles laadida järgneva koodijupi:
 
@@ -101,16 +105,13 @@ Pulsilaiused on seostatud järgnevalt:
 * 2ms - 100% kiirusega teises suunas
 
 Tüüpilisel sumorobotil on kaks kiirusekontrolliga servomootorit roboti rataste
-ringi ajamiseks:
+ringi ajamiseks [#sumoino]_:
 
-.. image:: img/arduino-sumorobot.jpg
-    :align: center
+.. figure:: img/arduino-sumorobot.jpg
 
-Viited
-------
+    Sumorobot
+    
 
-Kasutatud teegid ja viited:
-
-* `Servo Library <http://arduino.cc/en/reference/servo>`_
-* `Servomootor - Vikipeedia, vaba entsüklopeedia <http://et.wikipedia.org/wiki/Servomootor>`_
-* `Sumoino shield <https://github.com/silps/sumoino/>`_
+.. [#servo-library] `Arduino - Servo <http://arduino.cc/en/reference/servo>`_
+.. [#servo] `Servomootor - Vikipeedia, vaba entsüklopeedia <http://et.wikipedia.org/wiki/Servomootor>`_
+.. [#sumoino] `Sumoino shield <https://github.com/silps/sumoino/>`_

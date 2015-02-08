@@ -1,171 +1,181 @@
-<!--
-.. title: Transistor simulator
-..  author: lauri.vosandi@gmail.com
-..  license: cc-by-3
-.. tags: private, Arduino, Estonian IT College
-.. date: 2013-10-31
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transistori simulaator</title>
+    <meta charset="utf-8"/>
+    <meta name="language" content="et"/>
+    <meta name="author" content="Lauri Võsandi, lauri.vosandi@gmail.com"/>
+    <meta name="license" content="cc-by-3"/>
+    <meta name="tags" content="Arduino, Estonian IT College"/>
+    <meta name="published" content="2013-10-31"/>
+</head>
 
-<script type="text/javascript" src="js/transistor-simulator.js"></script>
-<script type="text/javascript" src="js/core.js"></script>
+<body>
+    <h1>Transistori simulaator</h1>
+    <div class="document">
+        <script type="text/javascript" src="js/transistor-simulator.js"></script>
+        <script type="text/javascript" src="js/core.js"></script>
 
-<div class="section">
+        <div class="section">
 
-    <p>Käesolev simulaator püüab selgitada (välja)transistori liidestamist
-    mikrokontrolleriga.</p>
+            <p>Käesolev simulaator püüab selgitada (välja)transistori liidestamist
+            mikrokontrolleriga.</p>
 
-    <div>
-        <label for="power_supply_voltage">Toiteallika pinge</label>
-        <input id="power_supply_voltage" type="number" min="3.3" max="100" placeholder="9.0V" value="9.0" step="0.1"/>
+            <div>
+                <label for="power_supply_voltage">Toiteallika pinge</label>
+                <input id="power_supply_voltage" type="number" min="3.3" max="100" placeholder="9.0V" value="9.0" step="0.1"/>
 
+            </div>
+            <div>
+            
+                <label for="input_transistor">Transistor:</label>
+                <select id="input_transistor" onChange="onBodyLoad();">
+                    <optgroup label="Transistor">
+                        <optgroup label="NPN">
+                            <option
+                            
+                                value="bc547"
+                                data-type="npn-transistor"
+                                data-circuit="arduino-transistor-power-led"
+                                data-collector-emitter-voltage-max="45"
+                                data-collector-current-max="0.1"
+                                data-collector-power-dissipation="0.5"
+                                >BC547</option>  
+                            <option
+                                value="bc547"
+                                data-type="npn-transistor"
+                                data-circuit="arduino-transistor-power-led"
+                                data-collector-emitter-voltage-max="45"
+                                data-collector-current-max="0.1"
+                                data-collector-power-dissipation="0.5"
+                                >BC547</option>
+                        </optgroup>
+                    </optgroup>
+                    <optgroup label="MOSFET">
+                        <optgroup label="N-kanal">
+                            <option
+                                value="2n7000"
+                                data-type="npn-mosfet"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-drain-source-on-resistance-max="9"
+                                data-drain-source-voltage-max="60"
+                                data-drain-source-continuous-current-max="0.200"
+                                data-drain-source-pulsed-current-max="0.500"
+                                data-power-dissipation-max="0.400"
+                                >2N7000</option>
+                            <option
+                                value="2n7002"
+                                data-type="npn-mosfet"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-drain-source-on-resistance-max="13.5"
+                                data-drain-source-voltage-max="60"
+                                data-drain-source-continuous-current-max="0.115"
+                                data-drain-source-pulsed-current-max="0.800"
+                                data-power-dissipation-max="0.200"
+                                >2N7002</option>
+                            <option
+                                value="nds7002a"
+                                data-type="npn-mosfet"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-drain-source-on-resistance-max="5.0"
+                                data-drain-source-voltage-max="60"
+                                data-drain-source-continuous-current-max="0.280"
+                                data-drain-source-pulsed-current-max="1.500"
+                                data-power-dissipation-max="0.300"
+                                >NDS7002A</option>
+                            <option
+                                value="bs170"
+                                data-type="npn-mosfet"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-drain-source-resistance-freeze="0.8"
+                                data-drain-source-resistance-boil="1.6"
+                                data-gate-threshold-voltage-min="0.8"
+                                data-gate-threshold-voltage-typical="2.1"
+                                data-gate-threshold-voltage-max="3"
+                                data-drain-source-voltage-max="60"
+                                data-drain-source-continuous-current-max="0.5"
+                                data-drain-source-pulsed-current-max="1.2"
+                                >BS170</option>
+                            <option
+                                value="irf520"
+                                data-type="npn-mofset"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-gate-threshold-voltage-min="2.0"
+                                data-gate-threshold-voltage-typical=""
+                                data-gate-threshold-voltage-max="4.0"
+                                data-drain-source-voltage-max="100"
+                                data-drain-source-continuous-current-max="6.5"
+                                data-drain-source-pulsed-current-max="37"
+                                >IRF520</option>
+                            <option
+                                value="irf2903z"
+                                data-type="npn-mofset"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-gate-threshold-voltage-min="2.0"
+                                data-gate-threshold-voltage-typical=""
+                                data-gate-threshold-voltage-max="4.0"
+                                data-drain-source-voltage-max="30"
+                                data-drain-source-continuous-current-max="75"
+                                data-drain-source-pulsed-current-max="1020"
+                                >IRF2903Z</option>
+                            <option
+                                value="irf2903z"
+                                data-type="npn-mofset"
+                                data-circuit="arduino-mosfet-dc-motor"
+                                data-gate-threshold-voltage-min="2.0"
+                                data-gate-threshold-voltage-typical=""
+                                data-gate-threshold-voltage-max="4.0"
+                                data-drain-source-voltage-max="30"
+                                data-drain-source-continuous-current-max="75"
+                                data-drain-source-pulsed-current-max="1020"
+                                >IRF2903Z</option>
+                        </optgroup>
+                    </optgroup>
+                        
+                </select>
+
+
+            </div>
+            <div>
+            
+                <label for="logic_voltage">Logic voltage:</label>
+                <select id="logic_voltage">
+                    <option value="cmos"
+                        data-voltage-false="0"
+                        data-voltage-true="5">CMOS (5V)</option>
+                    <option value="ttl"
+                        data-voltage-false="0"
+                        data-voltage-true="3.3">TTL (3.3V)</option>
+                </select>
+
+            </div>
+            
+            <img id="circuit"/>
+
+
+        </div>
+        <div class="section">
+
+            <h2>Antud</h2>
+            <p><i>Datasheet</i>-st saab üles otsita kõige olulisemad parameetrid</p>
+            <p>Kollektor-emitter pinge näitab sisuliselt ära kui suure pingega ahelat
+            selle transistoriga juhtida saab:</p>
+            <div class="math" id="output_collector_emitter_voltage_max"></div>
+            <div class="math" id="output_collector_current_max"></div>
+
+        </div>
+        <div class="section">
+
+            <h2>Viited</h2>
+            <ul>
+
+                <li><a href="http://www.ece.usu.edu/ece_store/spec/BC547.pdf">BC547</a></li>
+                <li><a href="http://www.vishay.com/docs/91017/91017.pdf">IRF520</a></li>
+
+            </ul>
+
+        </div>
     </div>
-    <div>
-    
-        <label for="input_transistor">Transistor:</label>
-        <select id="input_transistor" onChange="onBodyLoad();">
-            <optgroup label="Transistor">
-                <optgroup label="NPN">
-                    <option
-                    
-                        value="bc547"
-                        data-type="npn-transistor"
-                        data-circuit="arduino-transistor-power-led"
-                        data-collector-emitter-voltage-max="45"
-                        data-collector-current-max="0.1"
-                        data-collector-power-dissipation="0.5"
-                        >BC547</option>  
-                    <option
-                        value="bc547"
-                        data-type="npn-transistor"
-                        data-circuit="arduino-transistor-power-led"
-                        data-collector-emitter-voltage-max="45"
-                        data-collector-current-max="0.1"
-                        data-collector-power-dissipation="0.5"
-                        >BC547</option>
-                </optgroup>
-            </optgroup>
-            <optgroup label="MOSFET">
-                <optgroup label="N-kanal">
-                    <option
-                        value="2n7000"
-                        data-type="npn-mosfet"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-drain-source-on-resistance-max="9"
-                        data-drain-source-voltage-max="60"
-                        data-drain-source-continuous-current-max="0.200"
-                        data-drain-source-pulsed-current-max="0.500"
-                        data-power-dissipation-max="0.400"
-                        >2N7000</option>
-                    <option
-                        value="2n7002"
-                        data-type="npn-mosfet"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-drain-source-on-resistance-max="13.5"
-                        data-drain-source-voltage-max="60"
-                        data-drain-source-continuous-current-max="0.115"
-                        data-drain-source-pulsed-current-max="0.800"
-                        data-power-dissipation-max="0.200"
-                        >2N7002</option>
-                    <option
-                        value="nds7002a"
-                        data-type="npn-mosfet"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-drain-source-on-resistance-max="5.0"
-                        data-drain-source-voltage-max="60"
-                        data-drain-source-continuous-current-max="0.280"
-                        data-drain-source-pulsed-current-max="1.500"
-                        data-power-dissipation-max="0.300"
-                        >NDS7002A</option>
-                    <option
-                        value="bs170"
-                        data-type="npn-mosfet"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-drain-source-resistance-freeze="0.8"
-                        data-drain-source-resistance-boil="1.6"
-                        data-gate-threshold-voltage-min="0.8"
-                        data-gate-threshold-voltage-typical="2.1"
-                        data-gate-threshold-voltage-max="3"
-                        data-drain-source-voltage-max="60"
-                        data-drain-source-continuous-current-max="0.5"
-                        data-drain-source-pulsed-current-max="1.2"
-                        >BS170</option>
-                    <option
-                        value="irf520"
-                        data-type="npn-mofset"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-gate-threshold-voltage-min="2.0"
-                        data-gate-threshold-voltage-typical=""
-                        data-gate-threshold-voltage-max="4.0"
-                        data-drain-source-voltage-max="100"
-                        data-drain-source-continuous-current-max="6.5"
-                        data-drain-source-pulsed-current-max="37"
-                        >IRF520</option>
-                    <option
-                        value="irf2903z"
-                        data-type="npn-mofset"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-gate-threshold-voltage-min="2.0"
-                        data-gate-threshold-voltage-typical=""
-                        data-gate-threshold-voltage-max="4.0"
-                        data-drain-source-voltage-max="30"
-                        data-drain-source-continuous-current-max="75"
-                        data-drain-source-pulsed-current-max="1020"
-                        >IRF2903Z</option>
-                    <option
-                        value="irf2903z"
-                        data-type="npn-mofset"
-                        data-circuit="arduino-mosfet-dc-motor"
-                        data-gate-threshold-voltage-min="2.0"
-                        data-gate-threshold-voltage-typical=""
-                        data-gate-threshold-voltage-max="4.0"
-                        data-drain-source-voltage-max="30"
-                        data-drain-source-continuous-current-max="75"
-                        data-drain-source-pulsed-current-max="1020"
-                        >IRF2903Z</option>
-                </optgroup>
-            </optgroup>
-                
-        </select>
+</body>
 
-
-    </div>
-    <div>
-    
-        <label for="logic_voltage">Logic voltage:</label>
-        <select id="logic_voltage">
-            <option value="cmos"
-                data-voltage-false="0"
-                data-voltage-true="5">CMOS (5V)</option>
-            <option value="ttl"
-                data-voltage-false="0"
-                data-voltage-true="3.3">TTL (3.3V)</option>
-        </select>
-
-    </div>
-    
-    <img id="circuit"/>
-
-
-</div>
-<div class="section">
-
-    <h2>Antud</h2>
-    <p><i>Datasheet</i>-st saab üles otsita kõige olulisemad parameetrid</p>
-    <p>Kollektor-emitter pinge näitab sisuliselt ära kui suure pingega ahelat
-    selle transistoriga juhtida saab:</p>
-    <div class="math" id="output_collector_emitter_voltage_max"></div>
-    <div class="math" id="output_collector_current_max"></div>
-
-</div>
-<div class="section">
-
-    <h2>Viited</h2>
-    <ul>
-
-        <li><a href="http://www.ece.usu.edu/ece_store/spec/BC547.pdf‎">BC547</a></li>
-        <li><a href="http://www.vishay.com/docs/91017/91017.pdf‎">IRF520</a></li>
-
-    </ul>
-
-</div>
-
+</html>

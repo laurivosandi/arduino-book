@@ -1,6 +1,8 @@
-.. title: Arduino alglaadur
-.. tags: 
+.. tags: Arduino, Makefile, C
 .. date: 2013-10-31
+
+Arduino alglaadur
+=================
 
 Sissejuhatus
 ------------
@@ -8,7 +10,7 @@ Sissejuhatus
 Pea igal Atmega mikrokontrolleril on ICSP (In Circuit Serial Programming) liides.
 See oli enne Arduinot primaarne Atmega mikrokontrollerite programmeerimise viis.
 
-C koodi kompileerimine Arduino Uno jaoks on üpris hõlbus:
+C koodi kompileerimine Arduino Uno jaoks on üpris hõlbus [#makefile]_:
 
 .. code:: bash
 
@@ -31,17 +33,13 @@ Arduino alglaaduri taastamine
 
 Selleks et Atmega mikrokontroller jälle Arduino arenduskeskkonnast programmeeritavaks
 teha peab mirkokontrollerisse tagasi kirjutama Arduino alglaaduri, mis üle
-jadaliidese arvutiga suhtleb:
+jadaliidese arvutiga suhtleb [#buspirate]_:
     
 .. code:: bash
 
     avrdude -p m328p -c buspirate -P /dev/ttyUSB2 -b 115200 -F -U /usr/share/arduino/hardware/arduino/bootloaders/atmega/ATmegaBOOT_168_atmega328.hex
 
-Viited
-------
+.. [#makefile] `atmeg324p/Makefile <https://bitbucket.org/lauri.vosandi/atmega324p/src/tip/Makefile>`_
+.. [#buspirate] `Programming the Atmega328p using AVRDUDE and the Bus Pirate <http://code.google.com/p/ardupilot-mega/wiki/BusPirate>`_
 
-* `Programming the Atmega328p using AVRDUDE and the Bus Pirate
-  <http://code.google.com/p/ardupilot-mega/wiki/BusPirate>`_
-* `atmeg324p/Makefile
-  <https://bitbucket.org/lauri.vosandi/atmega324p/src/tip/Makefile>`_
 

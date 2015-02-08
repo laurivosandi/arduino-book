@@ -2,6 +2,7 @@
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. language: et
 .. license: cc-by-3
+.. date: 2013-10-31
 
 Induktorite juhtimine väljatransistori abil
 ===========================================

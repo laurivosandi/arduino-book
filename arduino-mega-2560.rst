@@ -1,9 +1,10 @@
-.. title: Arduino Mega 2560
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Estonian IT College, Arduino
 .. date: 2013-10-31
 
+Arduino Mega 2560
+=================
 
 Sissejuhatus
 ------------
@@ -11,8 +12,9 @@ Sissejuhatus
 Arduino Mega 2560 on `Arduino Uno <arduino-uno.html>`_ suurem vend.
 Põhiline erinevus seisneb selles, et Arduino Mega 2560-l on rohkem pesasid [#arduino-mega-2560]_.
 
-.. image:: img/arduino-mega2560.jpg
-    :align: center
+.. figure:: img/arduino-mega2560.jpg
+
+    Arduino Mega 2560
 
 Arduino Mega 2560 pesade võimekused:
 

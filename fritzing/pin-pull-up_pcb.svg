@@ -39,7 +39,7 @@
   <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="70" stroke="rgb(255, 191, 0)" id="connector0pin" r="29" stroke-width="20"/>
  </g>
 </g>
-</g></g></g><g partID='101070'><line stroke-linecap='round' stroke='#fa50e6' x1='11099.5' y1='364.222' x2='10745.6' y2='364.222' stroke-width='5.55556' /></g><g partID='101090'><line stroke-linecap='round' stroke='#fa50e6' x1='10699.5' y1='363.167' x2='6022.23' y2='148.901' stroke-width='5.55556' /></g><g partID='76222'><g transform='translate(10685,321.222)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+</g></g></g><g partID='854122870'><line stroke-linecap='round' stroke='#157de6' x1='11099.5' y1='364.222' x2='10745.6' y2='364.222' stroke-width='5.55556' /></g><g partID='854122890'><line stroke-linecap='round' stroke='#157de6' x1='10699.5' y1='363.167' x2='6022.23' y2='148.901' stroke-width='5.55556' /></g><g partID='76222'><g transform='translate(10685,321.222)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="43" x1="75" y2="43" stroke-width="10" x2="147"/>
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="43" x1="347" y2="43" stroke-width="10" x2="400"/>
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="10" x1="147" y2="10" stroke-width="10" x2="347"/>

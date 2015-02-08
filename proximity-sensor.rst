@@ -1,8 +1,10 @@
-.. title: Sharp GP2Y0A21 analoogkaugussensor
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. date: 2013-10-31
+
+Sharp GP2Y0A21 analoogkaugussensor
+==================================
 
 Sissejuhatus
 ------------
@@ -12,15 +14,16 @@ Sensori toitepinge on 5V ning sensori väljundiks on pinge vahemikus
 0V kuni 3.2V, mis tähendab et seda võib vabalt kasutada ka 3.3V toitepingega
 prototüüpimisplaatidega (nt `mbed <http://mbed.org/platforms/>`_):
 
-.. image:: img/arduino-sharp-gp2y0a21.jpg 
-    :align: center
+.. figure:: img/arduino-sharp-gp2y0a21.jpg 
 
+    Sharp GP2Y0A21 kaugussensor
 
 Tüüpilisel sumorobotil on kaks säärast kaugussensorit vastase asukoha
 tuvastamiseks:
 
-.. image:: img/arduino-sumorobot.jpg
-    :align: center
+.. figure:: img/arduino-sumorobot.jpg
+
+    Kaugussensorid sumorobotil
 
 Sensori *datasheet*-ist leiab pinge ning kauguse vahelise seose graafiku:
 

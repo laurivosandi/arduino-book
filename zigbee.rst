@@ -1,8 +1,10 @@
-.. title: XBee S2
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College, XBee, ZigBee, LR-WPAN
 .. date: 2014-06-08
+
+XBee S2
+=======
 
 Sissejuhatus
 ------------
@@ -20,8 +22,9 @@ XBee S2 moodul on `Digi International <http://www.digi.com>`_ toodetud moodul,
 mis on üks paljudest moodulitest mis realiseerib ZigBee silmusvõrguprotokolli 
 (*mesh* *network*):
 
-.. image:: img/xbee-module.jpg
-   :align: center
+.. figure:: img/xbee-module.jpg
+
+    Digi XBee S2 moodul
    
 Fotol on ka näha antenn, kuid leidub ka XBee mooduleid, mille antenn välja ei ulatu.
 Kõige lihtsamal moel öeldes teeb XBee moodul UART ühenduse juhtmeta ühenduseks.
@@ -48,12 +51,14 @@ XBee moodulil on 20 jalga:
 
 Arduinoga ühendamiseks kasutame Wireless SD shieldi.
 
-.. image:: img/xbee-module-mounted.jpg
-   :align: center
+.. figure:: img/xbee-module-mounted.jpg
+
+    XBee S2 moodul ühendatud Wireless SD shield abil
 
 Käesoleval shieldil on SERIAL SELECT lüliti, mis MICRO režiimis lülitab
 XBee mooduli Atmega mikrokontrolleri UART otstele ning USB režiimis 
 lülitab XBee mooduli Arduino USB-jadaliides silla külge.
+
 
 ZigBee võrgu ülesehitus
 -----------------------

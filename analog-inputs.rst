@@ -1,7 +1,10 @@
-.. title: Arduino analoogsisendid
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. tags: Tiigriülikool, Estonian IT College, Arduino, GPIO
 .. license: cc-by-3
+.. date: 2013-10-31
+
+Arduino analoogsisendid
+=======================
 
 Sissejuhatus
 ------------

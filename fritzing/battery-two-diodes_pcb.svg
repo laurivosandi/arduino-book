@@ -7,7 +7,7 @@
 </g></g><g partID='32921'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen0">
  <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
 </g>
-</g></g><g partID='34000'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+</g></g><g partID='39920'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
 </g>
@@ -16,11 +16,11 @@
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="70" stroke="rgb(255, 191, 0)" id="connector0pin" r="29" stroke-width="20"/>
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="170" stroke="rgb(255, 191, 0)" id="connector1pin" r="29" stroke-width="20"/>
 </g>
-</g></g></g><g partID='39450'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
+</g></g></g><g partID='39910'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper0">
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
 </g>
-</g></g><g partID='34001'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+</g></g><g partID='39921'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
  <g xmlns="http://www.w3.org/2000/svg" id="copper0">
@@ -35,7 +35,7 @@
   <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="170" stroke="rgb(255, 191, 0)" id="connector1pin" r="29" stroke-width="20"/>
  </g>
 </g>
-</g></g></g><g partID='39451'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
+</g></g></g><g partID='39911'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="copper1">
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="39" cy="55" connectorname="A" stroke="#F7BD13" id="connector0pad" r="29.3425" stroke-width="19.315"/>
  <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
  <g xmlns="http://www.w3.org/2000/svg" id="copper0">
@@ -43,10 +43,10 @@
   <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="439" cy="55" connectorname="C" stroke="#F7BD13" id="connector1pad" r="29.3425" stroke-width="19.315"/>
  </g>
 </g>
-</g></g><g partID='96760'><line stroke-linecap='round' stroke='#33ffc5' x1='636.008' y1='1791.42' x2='1186.89' y2='1883.23' stroke-width='5.55556' /></g><g partID='96780'><line stroke-linecap='round' stroke='#ab58a2' x1='7152.16' y1='140.011' x2='1334.64' y2='1880.23' stroke-width='5.55556' /></g><g partID='96800'><line stroke-linecap='round' stroke='#8c3b00' x1='1035.59' y1='1781.1' x2='7551.87' y2='138.946' stroke-width='5.55556' /></g><g partID='32922'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+</g></g><g partID='97270'><line stroke-linecap='round' stroke='#33ffc5' x1='636.008' y1='1791.42' x2='1186.89' y2='1883.23' stroke-width='5.55556' /></g><g partID='97290'><line stroke-linecap='round' stroke='#ab58a2' x1='7551.1' y1='132.778' x2='7201.59' y2='132.778' stroke-width='5.55556' /></g><g partID='97310'><line stroke-linecap='round' stroke='#ab58a2' x1='7152.16' y1='140.011' x2='1334.64' y2='1880.23' stroke-width='5.55556' /></g><g partID='97330'><line stroke-linecap='round' stroke='#ab58a2' x1='1035.06' y1='1795.25' x2='1287.82' y2='1879.5' stroke-width='5.55556' /></g><g partID='32922'><g transform='translate(0,1753.93)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
  <rect xmlns="http://www.w3.org/2000/svg" width="6658.67" x="4" y="4" fill="none" height="2214.22" stroke="#000000" stroke-width="8"/>
 </g>
-</g></g><g partID='34002'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+</g></g><g partID='39922'><g transform='translate(572.111,1732.27)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="364" y2="5" stroke-width="10" x2="314"/>
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="5" stroke-width="10" x2="114"/>
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="114" y2="55" stroke-width="10" x2="114"/>
@@ -67,7 +67,7 @@
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="55" stroke-width="5" x1="20" y2="20" x2="55"/>
  <!-- 120 -->
 </g>
-</g></g></g><g partID='39452'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+</g></g></g><g partID='39912'><g transform='translate(7137.34,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="364" y2="5" stroke-width="10" x2="314"/>
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="314" y2="5" stroke-width="10" x2="114"/>
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="5" x1="114" y2="55" stroke-width="10" x2="114"/>
@@ -80,4 +80,4 @@
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="114" y2="55" stroke-width="10" x2="89"/>
  <line xmlns="http://www.w3.org/2000/svg" class="other" stroke="#f0f0f0" stroke-linecap="round" y1="55" x1="364" y2="55" stroke-width="10" x2="389"/>
 </g>
-</g></g><g partID='34000' id='partLabel'><g transform='translate(1050.11,1654.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D2</text></g></g></g><g partID='38310' id='partLabel'><g transform='translate(1331.11,1689.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>VCC1</text></g></g></g><g partID='39450' id='partLabel'><g transform='translate(7615.34,0)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D1</text></g></g></g></svg>
+</g></g><g partID='38310' id='partLabel'><g transform='translate(1331.11,1689.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>VCC1</text></g></g></g><g partID='39920' id='partLabel'><g transform='translate(1050.11,1654.49)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D2</text></g></g></g><g partID='39910' id='partLabel'><g transform='translate(7615.34,0)' ><g font-size='69.4444' font-style='normal' font-weight='normal' fill='#000000' font-family="'OCRA'" id='silkscreenLabel' fill-opacity='1' stroke='none' ><text x='0' y='52.0833'>D1</text></g></g></g></svg>

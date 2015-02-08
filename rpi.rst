@@ -2,7 +2,11 @@
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags:  Arduino, Estonian IT College
+.. flags: hidden
 .. date: 2013-10-31
+
+Raspberry Pi
+============
 
 Käesolev kursus tutvustab modernse arvuti riistvara
 `Raspberry Pi <http://www.raspberrypi.org/faqs>`_ näitel.

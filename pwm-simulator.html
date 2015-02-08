@@ -1,300 +1,313 @@
-<!--
-.. title: Pulsilaiusmodulatsioon
-.. author: lauri.vosandi@gmail.com
-.. license: cc-by-3
-.. tags: private, Arduino, Estonian IT College
-.. date: 2013-10-31
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulsilaiusmodulatsioon</title>
+    <meta charset="utf-8"/>
+    <meta name="language" content="et"/>
+    <meta name="author" content="Lauri Võsandi, lauri.vosandi@gmail.com"/>
+    <meta name="license" content="cc-by-3"/>
+    <meta name="tags" content="Arduino, Estonian IT College"/>
+    <meta name="published" content="2013-10-31"/>
+</head>
 
-<script type="text/javascript" src="js/pwm-simulator.js"></script>
-<script type="text/javascript" src="js/core.js"></script>
+<body>
+    <h1>Pulsilaiusmodulatsioon</h1>
+    <div class="document">
 
-<style>
+        <script type="text/javascript" src="js/pwm-simulator.js">
+            // placeholder
+        </script>
+        <script type="text/javascript" src="js/core.js">
+            // placeholder
+        </script>
 
-#oscilloscope {
-    margin: 2em 0 2em 0;
-    white-space:nowrap;
-    overflow: hidden;
-}
+        <style>
 
-#oscilloscope .cycles {
-    overflow: hidden;
-    display: inline-block;
-}
+        #oscilloscope {
+            margin: 2em 0 2em 0;
+            white-space:nowrap;
+            overflow: hidden;
+        }
 
-#oscilloscope .cycle,
-#oscilloscope .on,
-#oscilloscope .off {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    height: 50px;
-}
+        #oscilloscope .cycles {
+            overflow: hidden;
+            display: inline-block;
+        }
 
-#oscilloscope .cycle {
-}
+        #oscilloscope .cycle,
+        #oscilloscope .on,
+        #oscilloscope .off {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            height: 50px;
+        }
 
-#oscilloscope .on,
-#oscilloscope .off {
-    border: 1px solid #888;
-    margin: 0 -1px 0 0;
-    height: 48px;
-}
+        #oscilloscope .cycle {
+        }
 
-#oscilloscope .on {
-    border-bottom-color: #bbf;
-    background-color: #ddf;
-}
+        #oscilloscope .on,
+        #oscilloscope .off {
+            border: 1px solid #888;
+            margin: 0 -1px 0 0;
+            height: 48px;
+        }
 
-#oscilloscope .off {
-    margin: 1px -1px 1px 0px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
+        #oscilloscope .on {
+            border-bottom-color: #bbf;
+            background-color: #ddf;
+        }
 
-#oscilloscope .voltage {
-    height: 50px;
-    width: 25px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline-block;
-    float: left;
-}
+        #oscilloscope .off {
+            margin: 1px -1px 1px 0px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
 
-#oscilloscope .voltage span {
-    display: block;
-    margin: 25px auto 0px;
-    transform-origin:center center;
-    -webkit-transform-origin:center center;
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);    
-}
+        #oscilloscope .voltage {
+            height: 50px;
+            width: 25px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: inline-block;
+            float: left;
+        }
 
-#oscilloscope .time {
-    margin: 0 2em;
-    text-align: right;
-    clear: both;
-}
+        #oscilloscope .voltage span {
+            display: block;
+            margin: 25px auto 0px;
+            transform-origin:center center;
+            -webkit-transform-origin:center center;
+            transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);    
+        }
 
-#oscilloscope .voltage span,
-#oscilloscope .time span {
-    font-size: 8pt;
-    font-style: italic;
-}
+        #oscilloscope .time {
+            margin: 0 2em;
+            text-align: right;
+            clear: both;
+        }
 
-#oscilloscope,
-#hardware_pwm_duty_cycle,
-#software_pwm_duty_cycle,
-#software_pwm_period {
-    margin: 1em auto;
-    width: 100%;
-}
+        #oscilloscope .voltage span,
+        #oscilloscope .time span {
+            font-size: 8pt;
+            font-style: italic;
+        }
 
-label {
-    font-style: italic;
-}
+        #oscilloscope,
+        #hardware_pwm_duty_cycle,
+        #software_pwm_duty_cycle,
+        #software_pwm_period {
+            margin: 1em auto;
+            width: 100%;
+        }
 
-#oscilloscope,
-#software_pwm_inputs,
-#hardware_pwm_inputs {
-    margin: 1em auto;
-    width: 60%;
-    min-width: 400px;
-}
-</style>
+        label {
+            font-style: italic;
+        }
 
-<div class="section">
-    <h2>Sissejuhatus</h2>
+        #oscilloscope,
+        #software_pwm_inputs,
+        #hardware_pwm_inputs {
+            margin: 1em auto;
+            width: 60%;
+            min-width: 400px;
+        }
+        </style>
 
-    <p>Pulsilaiusmodulatsioon on oma olemuselt väga sarnane jalgratta pedaalide
-    sõtkumisega. Mäes üles sõites väntab jalgrattur praktiliselt kogu 
-    aeg, öeldakse ka et töötsükkel on 100%.
-    Metsa vahel sõites võibolla nii palju ei pea väntama, saab ka
-    mõned laugemad lõigud väiksema töötsükkliga läbida (nt 75%).
-    Siledal asfaltteel peab veel vähem väntama (nt 50%),
-    ülejäänud aja liigub rattur koos rattaga edasi inertsi jõul.</p>
+        <div class="section">
+            <h2>Sissejuhatus</h2>
 
-    <p>Elektroonikas tähendab pulsilaiusmodulatsioon
-    elektritarbija ühendamist toiteahelasse ning lahtiühendamist kiirel sagedusel.
-    Manipuleerides sisselülitatud ning väljalülitatud aja suhet,
-    muutub ka keskmine tarbitud võimsus.
-    Kasutades transistorit võimsa tarbija juhtimiseks eraldub pingelang transistoril soojusena.
-    Väljalülitatud olekus on transistori takistus lõpmatu ning skeemis  vool ei liigu.
-    Sisselülitatud olekus transistori takistus läheneb 0 oomile ning kogu energia kulutab tarbija.
-    Mõlemal juhul on skeemi efektiivsus väga kõrge.</p>
+            <p>Pulsilaiusmodulatsioon on oma olemuselt väga sarnane jalgratta pedaalide
+            sõtkumisega. Mäes üles sõites väntab jalgrattur praktiliselt kogu 
+            aeg, öeldakse ka et töötsükkel on 100%.
+            Metsa vahel sõites võibolla nii palju ei pea väntama, saab ka
+            mõned laugemad lõigud väiksema töötsükkliga läbida (nt 75%).
+            Siledal asfaltteel peab veel vähem väntama (nt 50%),
+            ülejäänud aja liigub rattur koos rattaga edasi inertsi jõul.</p>
 
-    <p>Vahepealsete variantide saavutamiseks (nt tarbija käitamine 50% võimsusega)
-    tüüritakse pingelangu transistoril, selleks et piirata tarbija elektriahelas tekkivat voolu.
-    Sellisel juhul eraldub ülejäänud energia soojusena, mis tähendab ka seda,
-    et skeem ei ole eriti efektiivne. Säärasel printsiibil toimivad
-    näiteks <a href="http://en.wikipedia.org/wiki/Amplifier#Class_A">A-klassi helivõimendid</a>.
-    Kasutades pulsilaiusmodulatsiooni tarbijasse jõudva energia juhtimiseks
-    saavutatakse märgatavalt suurem efektiivsus.
-    Pulsilaiusmodulatsiooni kasutatakse mitmesugustes rakendustes:
-    <a href="http://en.wikipedia.org/wiki/Switched-mode_power_supply">impulsstoiteplokid</a>,
-    LED valgustite <i>dimmer</i>-id,
-    <a href="http://en.wikipedia.org/wiki/Class-D_amplifier">D-klassi helivõimendid</a> jms.
-    </p>
+            <p>Elektroonikas tähendab pulsilaiusmodulatsioon
+            elektritarbija ühendamist toiteahelasse ning lahtiühendamist kiirel sagedusel.
+            Manipuleerides sisselülitatud ning väljalülitatud aja suhet,
+            muutub ka keskmine tarbitud võimsus.
+            Kasutades transistorit võimsa tarbija juhtimiseks eraldub pingelang transistoril soojusena.
+            Väljalülitatud olekus on transistori takistus lõpmatu ning skeemis  vool ei liigu.
+            Sisselülitatud olekus transistori takistus läheneb 0 oomile ning kogu energia kulutab tarbija.
+            Mõlemal juhul on skeemi efektiivsus väga kõrge.</p>
 
-    <p>Tavalise alalisvoolumootori puhul on analoogia jalgrattaga ilmselge - 
-    töötsükkli ajal saab mootor toidet elektriallikast ning vahepeal
-    liigub inertsi tõttu edasi. LED <i>dimmer</i>-ite puhul kasutatakse ära sama inimsilma
-    omapära mis filmitööstuseski -
-    vähemalt 24 kaadrit sekundis on tarvis selle jaoks, et silm ei tajuks
-    kaadreid eraldiseivatena vaid sujuva liikumisena ning
-    60 Hz-ist ülespoole minnes ei taju silm enam ka LED-i sisse- ning väljalülitamist.
-    Selleks, et <i>dimmer</i>-datud LED valgus ei põhjustaks analoogselt
-    kineskoopkuvariga peavalu on soovitatav
-    kasutada vähemalt 100 Hz pulsslaiusmodulatsiooni baassagedusena.</p>
+            <p>Vahepealsete variantide saavutamiseks (nt tarbija käitamine 50% võimsusega)
+            tüüritakse pingelangu transistoril, selleks et piirata tarbija elektriahelas tekkivat voolu.
+            Sellisel juhul eraldub ülejäänud energia soojusena, mis tähendab ka seda,
+            et skeem ei ole eriti efektiivne. Säärasel printsiibil toimivad
+            näiteks <a href="http://en.wikipedia.org/wiki/Amplifier#Class_A">A-klassi helivõimendid</a>.
+            Kasutades pulsilaiusmodulatsiooni tarbijasse jõudva energia juhtimiseks
+            saavutatakse märgatavalt suurem efektiivsus.
+            Pulsilaiusmodulatsiooni kasutatakse mitmesugustes rakendustes:
+            <a href="http://en.wikipedia.org/wiki/Switched-mode_power_supply">impulsstoiteplokid</a>,
+            LED valgustite <i>dimmer</i>-id,
+            <a href="http://en.wikipedia.org/wiki/Class-D_amplifier">D-klassi helivõimendid</a> jms.
+            </p>
+
+            <p>Tavalise alalisvoolumootori puhul on analoogia jalgrattaga ilmselge - 
+            töötsükkli ajal saab mootor toidet elektriallikast ning vahepeal
+            liigub inertsi tõttu edasi. LED <i>dimmer</i>-ite puhul kasutatakse ära sama inimsilma
+            omapära mis filmitööstuseski -
+            vähemalt 24 kaadrit sekundis on tarvis selle jaoks, et silm ei tajuks
+            kaadreid eraldiseivatena vaid sujuva liikumisena ning
+            60 Hz-ist ülespoole minnes ei taju silm enam ka LED-i sisse- ning väljalülitamist.
+            Selleks, et <i>dimmer</i>-datud LED valgus ei põhjustaks analoogselt
+            kineskoopkuvariga peavalu on soovitatav
+            kasutada vähemalt 100 Hz pulsslaiusmodulatsiooni baassagedusena.</p>
 
 
-</div>
-<div class="section">
-
-    <h2>Tarkvaraline pulsilaiusmodulatsioon</h2>
-    <p>Kõige lihtsamalt pulsilaiusmodulatsiooni saab realiseerida
-    mikrokontrolleri digitaalväljundi sisse/välja lülitamisega ning
-    ajavahemike manipuleerimisega. Seda nimetatakse ka tarkvaraliseks
-    pulsilaiusmodulatsiooniks (<i>software PWM; bit-banging PWM</i>).
-    Madalate sageduste puhul on selle kasutamine põhjendatud aga
-    teatud sagedusest kõrgemale minnes muutub protsessori tsüklite kasutus märgtavaks.</p>
-
-    <div id="software_pwm_inputs">
-        <label for="software_pwm_period">Võnkeperiood: 
-            <span id="software_pwm_period_value">20</span> ms ehk 
-            <span id="software_pwm_frequency_value">50</span> Hz
-        </label>
-        <input id="software_pwm_period" type="range" min="1" max="200" placeholder="20" value="20" step="1" onChange="updateSoftwarePWM();">
-
-        <label for="software_pwm_duty_cycle">Töötsükkel:
-            <span id="software_pwm_duty_cycle_value">10</span> ms ehk 
-            <span id="software_pwm_duty_cycle_percent">50</span> %
-        </label>
-        <input id="software_pwm_duty_cycle" type="range" min="0" max="20" placeholder="10" value="10" step="1" onChange="updateSoftwarePWM();">
-    </div>
-
-    <p>Selliste parameetritega pulsilaiusmodulatsioonile vastaks järgnev signaalikuju (<i>waveform</i>):</p>
-
-    <div id="oscilloscope">
-        <div class="voltage"><span>Pinge&nbsp;&rarr;</span></div>
-        <div class="monitor">
-            <div class="cycles"></div>
         </div>
-        <div class="time"><span>Aeg&nbsp;&rarr;</span></div>
+        <div class="section">
+
+            <h2>Tarkvaraline pulsilaiusmodulatsioon</h2>
+            <p>Kõige lihtsamalt pulsilaiusmodulatsiooni saab realiseerida
+            mikrokontrolleri digitaalväljundi sisse/välja lülitamisega ning
+            ajavahemike manipuleerimisega. Seda nimetatakse ka tarkvaraliseks
+            pulsilaiusmodulatsiooniks (<i>software PWM; bit-banging PWM</i>).
+            Madalate sageduste puhul on selle kasutamine põhjendatud aga
+            teatud sagedusest kõrgemale minnes muutub protsessori tsüklite kasutus märgtavaks.</p>
+
+            <div id="software_pwm_inputs">
+                <label for="software_pwm_period">Võnkeperiood: 
+                    <span id="software_pwm_period_value">20</span> ms ehk 
+                    <span id="software_pwm_frequency_value">50</span> Hz
+                </label>
+                <input id="software_pwm_period" type="range" min="1" max="200" placeholder="20" value="20" step="1" onChange="updateSoftwarePWM();">
+
+                <label for="software_pwm_duty_cycle">Töötsükkel:
+                    <span id="software_pwm_duty_cycle_value">10</span> ms ehk 
+                    <span id="software_pwm_duty_cycle_percent">50</span> %
+                </label>
+                <input id="software_pwm_duty_cycle" type="range" min="0" max="20" placeholder="10" value="10" step="1" onChange="updateSoftwarePWM();">
+            </div>
+
+            <p>Selliste parameetritega pulsilaiusmodulatsioonile vastaks järgnev signaalikuju (<i>waveform</i>):</p>
+
+            <div id="oscilloscope">
+                <div class="voltage"><span>Pinge&nbsp;&rarr;</span></div>
+                <div class="monitor">
+                    <div class="cycles"></div>
+                </div>
+                <div class="time"><span>Aeg&nbsp;&rarr;</span></div>
+            </div>
+
+            <p>Käesoleva signaalikuju saab Arduino-st välja võluda järgneva koodijupiga:</p>
+
+            <pre id="software_pwm_code" class="code">
+            </pre>
+
+        </div>
+        <div class="section">
+
+
+            <h2>Riistvaraline pulsilaiusmodulatsioon</h2>
+
+            <p>Riistvaraliseks pulsilaiusmodulatsiooniks nimetakse mikrokontrolleri võimekust
+            realiseerida pulsilaiusmodulatsiooni raiskamata protsessori tsükleid.
+            Arduino puhul on selleks tarbeks pakendatud <i>analogWrite()</i> funktsioon.
+            Riistvaraline pulsilaiusmodulatsioon baseerub tavaliselt taimeril.
+            Taimer mikrokontrolleri kontekstis on mikrokontrolleri võimekus
+            loendada protsessori takte ning teatud taktide möödudes käivitada funktsioon.
+            Pulsilaiusmodulatsiooni kontekstis oleks selleks funktsiooniks
+            digitaalväljundi sisse- ning välja lülitamine.</p>
+
+            <p>Atmega mikrokontrolleri puhul saab seadistada nii
+            8-bitist kui 16-bitist taimerit ning
+            loendamiseks kasutatavaid takte saab protsessori sageduse suhtes veel 
+            jagada 1x, 8x, 64x, 256x või 1024x korda väiksemaks.
+            Taimerite ning pulsilaiusmodulatsiooni baassagedus 8-bitise taimeri puhul
+            vastab järgnevale reeglile:</p>
+
+            <!--
+            <label for="crystal_frequency">Crystal frequency</label>
+            <select id="crystal_frequency">
+                <option value="8000">8MHz</option>
+                <option value="12000">12MHz</option>
+                <option value="16000" selected>16MHz</option>
+                <option value="20000">20MHz</option>
+            </select>
+
+            <label for="prescale">Prescale:</label>
+            <select id="prescale">
+                <option value="1">1x</option>
+                <option value="8">8x</option>
+                <option value="64" selected>64x</option>
+                <option value="1024">1024x</option>
+            </select>
+            <div>
+                <input id="phase_correction" type="checkbox" style="float:left;"/>
+                <label for="phase_correction" style="margin-left:20px;">Phase correction</label>
+            </div>
+            -->
+
+            <div class="math" id="output_pwm_frequency_formula">
+            \begin{equation*}
+            f_{OCnxPWM} = 
+            \begin{cases}
+            \frac{f_{clk}}{N \times 255} & faasiparanduseta \\
+            \frac{f_{clk}}{2 \times N \times 255} & faasiparandusega
+            \end{cases}
+            \end{equation*}
+            </div>
+
+            <p>Ilma faasiparanduseta loendatakse tsükkleid nullist kuni ühe perioodi täis saamiseni 
+            ning seejärel alustatakse uuesti nullist lugemist.
+            Faasiparandusega (<i>phase correction</i>) loendatakse tsükkleid üles ning seejärel alla.
+            Faasiparanduse puhul pikeneb periood kaks korda, kuna perioodi täis saamise korral
+            hakatakse alla lugema kuni nullini ja nii edasi.
+            Faasiparanduse korral iga teine periood on eelmise peegelpilt.
+            Arduino puhul on pulsilaiusmodulatsiooni võimekusega pesad eelseadistatud
+            faasiparandusega, 8x jagajaga (<i>prescaler</i>) ning
+            Arduino puhul kasutatav kvartskristall on 16MHz-ne:</p>
+
+            <div class="math" id="output_pwm_frequency_formula">
+            \begin{equation*}
+            f_{OCnxPWM} = \frac{16 MHz}{2 \times 64 \times 255} = 490 Hz \\
+            T_{OCnxPWM} = \frac{1}{f_{OCnxPWM}} = \frac {1}{490 Hz} = 2040 µs \approx 2 ms
+            \end{equation*}
+            </div>
+
+            <p>Kuna Arduino ajastamise funktsioonid <i>delay()</i>
+            ja <i>millis()</i> sõltuvad taimerite konfiguratsioonist, siis ei ole
+            soovitatud taimeri jagajaid ümberseadistada. Arduino pakub 
+            <i>analogWrite()</i> funktsiooni, millega saab sisse lülitada ning
+            muuta tööperioodi pesadel mis riistvaralist pulsimodulatsiooni toetavad.
+            Arduino Uno puhul on nendeks pesad 3, 5, 6, 9, 10 ning 11. Arduino Mega 2560
+            puhul on riistvaraline pulsilaiusmodulatsioon toetatud pesadel
+            2 kuni 13.</p>
+
+            <div id="hardware_pwm_inputs">
+                <label for="hardware_pwm_duty_cycle">Töötsükkel:
+                    <span id="hardware_pwm_duty_cycle_value">1020</span> µs ehk 
+                    <span id="hardware_pwm_duty_cycle_percent">50</span> %
+                </label>
+                <input id="hardware_pwm_duty_cycle" type="range" min="0" max="255" placeholder="128" value="129" step="1" onChange="updateHardwarePWM();">
+            </div>
+
+            <pre id="hardware_pwm_code">
+            </pre>
+
+
+        </div>
+        <div class="section">
+
+
+            <h2>Viited</h2>
+
+            <ul>
+                <li><a href="http://playground.arduino.cc/Code/PwmFrequency">Arduino PWM frequency</a></li>
+                <li><a href="http://playground.arduino.cc/Main/TimerPWMCheatsheet">Timer PWM cheatsheet</a></li>
+                <li><a href="http://arduino.cc/en/Tutorial/SecretsOfArduinoPWM">Secrets of Arduino PWM</a></li>
+                <li><a href="http://arduino.cc/en/Reference/analogWrite">analogWrite()</a></li>
+            </ul>
+
+        </div>
     </div>
-
-    <p>Käesoleva signaalikuju saab Arduino-st välja võluda järgneva koodijupiga:</p>
-
-    <pre id="software_pwm_code">
-    </pre>
-
-</div>
-<div class="section">
-
-
-    <h2>Riistvaraline pulsilaiusmodulatsioon</h2>
-
-    <p>Riistvaraliseks pulsilaiusmodulatsiooniks nimetakse mikrokontrolleri võimekust
-    realiseerida pulsilaiusmodulatsiooni raiskamata protsessori tsükleid.
-    Arduino puhul on selleks tarbeks pakendatud <i>analogWrite()</i> funktsioon.
-    Riistvaraline pulsilaiusmodulatsioon baseerub tavaliselt taimeril.
-    Taimer mikrokontrolleri kontekstis on mikrokontrolleri võimekus
-    loendada protsessori takte ning teatud taktide möödudes käivitada funktsioon.
-    Pulsilaiusmodulatsiooni kontekstis oleks selleks funktsiooniks
-    digitaalväljundi sisse- ning välja lülitamine.</p>
-
-    <p>Atmega mikrokontrolleri puhul saab seadistada nii
-    8-bitist kui 16-bitist taimerit ning
-    loendamiseks kasutatavaid takte saab protsessori sageduse suhtes veel 
-    jagada 1x, 8x, 64x, 256x või 1024x korda väiksemaks.
-    Taimerite ning pulsilaiusmodulatsiooni baassagedus 8-bitise taimeri puhul
-    vastab järgnevale reeglile:</p>
-
-    <!--
-    <label for="crystal_frequency">Crystal frequency</label>
-    <select id="crystal_frequency">
-        <option value="8000">8MHz</option>
-        <option value="12000">12MHz</option>
-        <option value="16000" selected>16MHz</option>
-        <option value="20000">20MHz</option>
-    </select>
-
-    <label for="prescale">Prescale:</label>
-    <select id="prescale">
-        <option value="1">1x</option>
-        <option value="8">8x</option>
-        <option value="64" selected>64x</option>
-        <option value="1024">1024x</option>
-    </select>
-    <div>
-        <input id="phase_correction" type="checkbox" style="float:left;"/>
-        <label for="phase_correction" style="margin-left:20px;">Phase correction</label>
-    </div>
-    -->
-
-    <div class="math" id="output_pwm_frequency_formula">
-    \begin{equation*}
-    f_{OCnxPWM} = 
-    \begin{cases}
-    \frac{f_{clk}}{N \times 255} & faasiparanduseta \\
-    \frac{f_{clk}}{2 \times N \times 255} & faasiparandusega
-    \end{cases}
-    \end{equation*}
-    </div>
-
-    <p>Ilma faasiparanduseta loendatakse tsükkleid nullist kuni ühe perioodi täis saamiseni 
-    ning seejärel alustatakse uuesti nullist lugemist.
-    Faasiparandusega (<i>phase correction</i>) loendatakse tsükkleid üles ning seejärel alla.
-    Faasiparanduse puhul pikeneb periood kaks korda, kuna perioodi täis saamise korral
-    hakatakse alla lugema kuni nullini ja nii edasi.
-    Faasiparanduse korral iga teine periood on eelmise peegelpilt.
-    Arduino puhul on pulsilaiusmodulatsiooni võimekusega pesad eelseadistatud
-    faasiparandusega, 8x jagajaga (<i>prescaler</i>) ning
-    Arduino puhul kasutatav kvartskristall on 16MHz-ne:</p>
-
-    <div class="math" id="output_pwm_frequency_formula">
-    \begin{equation*}
-    f_{OCnxPWM} = \frac{16 MHz}{2 \times 64 \times 255} = 490 Hz \\
-    T_{OCnxPWM} = \frac{1}{f_{OCnxPWM}} = \frac {1}{490 Hz} = 2040 µs \approx 2 ms
-    \end{equation*}
-    </div>
-
-    <p>Kuna Arduino ajastamise funktsioonid <i>delay()</i>
-    ja <i>millis()</i> sõltuvad taimerite konfiguratsioonist, siis ei ole
-    soovitatud taimeri jagajaid ümberseadistada. Arduino pakub 
-    <i>analogWrite()</i> funktsiooni, millega saab sisse lülitada ning
-    muuta tööperioodi pesadel mis riistvaralist pulsimodulatsiooni toetavad.
-    Arduino Uno puhul on nendeks pesad 3, 5, 6, 9, 10 ning 11. Arduino Mega 2560
-    puhul on riistvaraline pulsilaiusmodulatsioon toetatud pesadel
-    2 kuni 13.</p>
-
-    <div id="hardware_pwm_inputs">
-        <label for="hardware_pwm_duty_cycle">Töötsükkel:
-            <span id="hardware_pwm_duty_cycle_value">1020</span> µs ehk 
-            <span id="hardware_pwm_duty_cycle_percent">50</span> %
-        </label>
-        <input id="hardware_pwm_duty_cycle" type="range" min="0" max="255" placeholder="128" value="129" step="1" onChange="updateHardwarePWM();">
-    </div>
-
-    <pre id="hardware_pwm_code">
-    </pre>
-
-
-</div>
-<div class="section">
-
-
-    <h2>Viited</h2>
-
-    <ul>
-        <li><a href="http://playground.arduino.cc/Code/PwmFrequency">Arduino PWM frequency</a></li>
-        <li><a href="http://playground.arduino.cc/Main/TimerPWMCheatsheet">Timer PWM cheatsheet</a></li>
-        <li><a href="http://arduino.cc/en/Tutorial/SecretsOfArduinoPWM">Secrets of Arduino PWM</a></li>
-        <li><a href="http://arduino.cc/en/Reference/analogWrite">analogWrite()</a></li>
-    </ul>
-
-</div>
-
+</body>

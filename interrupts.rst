@@ -1,22 +1,24 @@
-.. title: Arduino katkestused
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. tags: Tiigriülikool, Estonian IT College, Arduino, GPIO
 .. date: 2014-06-04
-.. language: et
 .. license: cc-by-3
+
+Arduino katkestused
+===================
 
 Sissejuhatus
 ------------
 
 Osadel Arduino pesadel on katkestuste (*interrupt*) võimekus, mis lubab
 digitaalsisendi lugemist optimeerida. Selle asemel et tsüklis korduvalt
-`digitaalsisendi väärtust lugeda <arduino-digital-input.html>`_,
+`digitaalsisendi väärtust lugeda <digital-inputs.html>`_,
 saab Arduino mikrokontrolleri programmeerida
 käivitama funktsiooni kui huvi pakkuv sündmus aset leiab.
 
 Arduino Uno puhul on katkestuste kasutamine võimalik pesadel 2 ning 3.
 Arduino Mega 2560 puhul on see lisaks veel toetatud pesadel 18, 19, 20 ja 21.
-Arduino Due puhul on katkestused võimalikud kõigil pesadel.
+Arduino Due puhul on katkestused võimalikud kõigil pesadel [#attach-interrupt]_.
+
 
 Katkestuste liigid
 ------------------
@@ -39,6 +41,7 @@ Arduino Uno ning Arduino Mega 2560 puhul on katkestused nummerdatud järgnevalt:
 * Pesa nr 19 → Katkestus nr 4
 * Pesa nr 20 → Katkestus nr 3
 * Pesa nr 21 → Katkestus nr 2
+
 
 Koodinäide
 ----------
@@ -74,10 +77,11 @@ Nupuvajutust võib lugeda näiteks järngeva koodijupiga:
     }
     
 Skeemina kasutame sama mida kõige lihtsamaski
-`digitaalsisendi lugemise <arduino-digital-input.html>`_ näites:
+`digitaalsisendi lugemise <digital-inputs.html>`_ näites:
 
-.. image:: fritzing/arduino-pushbutton_breadboard.svg
-    :align: center
+.. figure:: fritzing/arduino-pushbutton_breadboard.svg
+
+    Arduino nupuga ühendatud pessa number 2
 
 Kokkuvõte
 ---------
@@ -90,7 +94,4 @@ Katkestuse funktsiooni käivitamisel salvestatakse mikrokontrolleri olek,
 ning muu sel ajal käitatud funktsioon pannakse pausile.
 Katkestuse funktsiooni lõpetamisel jätkab mikrokontroller samast kohast.
 
-Viited
-------
-
-* `attachInterrupt() <http://arduino.cc/en/Reference/attachInterrupt>`_
+.. [#attach-interrupt] `attachInterrupt() <http://arduino.cc/en/Reference/attachInterrupt>`_

@@ -1,4 +1,3 @@
-.. title: Valgusdiood
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College, LED

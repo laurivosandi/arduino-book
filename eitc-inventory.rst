@@ -8,16 +8,16 @@ IT Kolledži inventar
 Eesti IT Kolledži robootikaklubi sardsüsteemide arendamise töökohtade
 vahendite hulka kuuluvad:
 
-* 26tk `Arduino Mega 2560 <arduino-mega2560>`_
-* 26tk `Raspberry Pi <rpi>`_
-* 26tk `Standardservo <servo-motors>`_ (nurga hoidja)
-* 26tk `Standardservo <servo-motors>`_ (pidev pöörlemine)
-* 26tk `Infrapuna kaugusandur Sharp GP2Y0A21 <proximity-sensor>`_
+* 26tk `Arduino Mega 2560 <arduino-mega-2560.html>`_
+* 26tk Raspberry Pi
+* 26tk `Standardservo <servo-motors.html>`_ (nurga hoidja)
+* 26tk `Standardservo <servo-motors.html>`_ (pidev pöörlemine)
+* 26tk `Infrapuna kaugusandur Sharp GP2Y0A21 <proximity-sensor.html>`_
 * 12tk `Arduino Wireless Shield <http://arduino.cc/en/Main/ArduinoWirelessShield>`_
-* 12tk `XBee S2 moodul <zigbee>`_
+* 12tk `XBee S2 moodul <zigbee.html>`_
 * 12tk `Bluetooth Bee <http://www.seeedstudio.com/wiki/Bluetooth_Bee>`_
-* 8tk `LCD1602 key shield <lcd1602-key-shield>`_
-* 4tk `Nokia 5110 LCD shield <nokia-5110-lcd-shield>`_
+* 8tk `LCD1602 key shield <lcd1602-key-shield.html>`_
+* 4tk `Nokia 5110 LCD shield <nokia-5110-lcd-shield.html>`_
 * 6tk `Infrapuna peegeldusandur QTR-1A <http://www.pololu.com/product/958>`_ ²
 * 6tk Värviandur ColorPAL ²
 * 6tk Vibratsiooniandur Piezo ²

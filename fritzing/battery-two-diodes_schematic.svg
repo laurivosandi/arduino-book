@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!-- Created with Fritzing (http://www.fritzing.org/) -->
-<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='1.87144in' height='0.990828in' viewBox='0 0 1871.44 990.828' >
-<g partID='39450'><g transform='translate(585.467,0)' ><g id="schematic">
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='1.02976in' height='0.713107in' viewBox='0 0 1029.76 713.107' >
+<g partID='39910'><g transform='translate(107.614,0)' ><g id="schematic">
 <g>
 <line fill="none" stroke="#000000" stroke-linecap="round" y1="5" stroke-width="6.94444" x1="200" y2="55" x2="200"/>
 <polygon fill="#FFFFFF" points="200,55,100,105,100,5" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-width="10.4167"/>
@@ -19,7 +19,7 @@
 <text fill="#8C8C8C" font-family="'DroidSans'" font-size="34.7222">2</text>
 </g>
 </g>
-</g></g><g partID='34000'><g transform='translate(1285.74,110)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g id="schematic">
+</g></g><g partID='39920'><g transform='translate(921.769,110.209)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g id="schematic">
 <g>
 <line fill="none" stroke="#000000" stroke-linecap="round" y1="5" stroke-width="6.94444" x1="200" y2="55" x2="200"/>
 <polygon fill="#FFFFFF" points="200,55,100,105,100,5" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-width="10.4167"/>
@@ -37,7 +37,7 @@
 <text fill="#8C8C8C" font-family="'DroidSans'" font-size="34.7222">2</text>
 </g>
 </g>
-</g></g></g><g partID='38310'><g transform='translate(1562.42,556.8)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="schematic">
+</g></g></g><g partID='38310'><g transform='translate(719.558,713.107)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="schematic">
 <line class="other" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-linecap="round" y1="8" x1="154.862" y2="308" stroke-width="16.0001" x2="154.862"/>
 <line class="other" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-linecap="round" y1="108" x1="204.862" y2="208" stroke-width="16.0001" x2="204.862"/>
 <line class="other" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-linecap="round" y1="8" x1="254.862" y2="308" stroke-width="16.0001" x2="254.862"/>
@@ -50,4 +50,4 @@
 <g width="0.00393702" x="4.86112" y="158" class="terminal" fill="none" xmlns="http://www.w3.org/2000/svg" height="0.00393701" stroke="none" id="connector1terminal" stroke-width="0"/>
 <text x="54.8612" y="143.417" class="text" font-family="'Droid Sans'" fill="#8c8c8c" xmlns="http://www.w3.org/2000/svg" text-anchor="middle" stroke="none" stroke-width="0" font-size="34.7223">2</text>
 </g>
-</g></g></g><g partID='34030'><line stroke-linecap='round' stroke='#404040' x1='1130.88' y1='55' x2='740.329' y2='55' stroke-width='33.3333' /></g><g partID='38480'><line stroke-linecap='round' stroke='#404040' x1='1821.43' y1='940.828' x2='1532.55' y2='940.828' stroke-width='33.3333' /></g><g partID='38410'><line stroke-linecap='round' stroke='#404040' x1='1821.43' y1='55.1133' x2='1821.43' y2='940.828' stroke-width='33.3333' /></g><g partID='38340'><line stroke-linecap='round' stroke='#404040' x1='1230.88' y1='55' x2='1821.43' y2='55.1137' stroke-width='33.3333' /></g><g partID='38690'><line stroke-linecap='round' stroke='#404040' x1='50' y1='940.828' x2='345.049' y2='940.828' stroke-width='33.3333' /></g><g partID='38620'><line stroke-linecap='round' stroke='#404040' x1='50' y1='55.1133' x2='50' y2='940.828' stroke-width='33.3333' /></g><g partID='38550'><line stroke-linecap='round' stroke='#404040' x1='640.333' y1='55' x2='50.0088' y2='55.1137' stroke-width='33.3333' /></g></svg>
+</g></g></g><g partID='40030'><line stroke-linecap='round' stroke='#404040' x1='400.213' y1='55' x2='114.692' y2='55.1042' stroke-width='9.7222' /></g><circle  fill="black" cx="400.213" cy="55" r="20" stroke-width="0" stroke="none" /><circle  fill="black" cx="114.692" cy="55.1042" r="20" stroke-width="0" stroke="none" /><g partID='34030'><line stroke-linecap='round' stroke='#404040' x1='629.171' y1='55.2089' x2='400.213' y2='55.0006' stroke-width='9.7222' /></g><circle  fill="black" cx="400.213" cy="55.0006" r="20" stroke-width="0" stroke="none" /><g partID='38480'><line stroke-linecap='round' stroke='#404040' x1='1015.16' y1='555.198' x2='714.695' y2='555.104' stroke-width='9.7222' /></g><g partID='38410'><line stroke-linecap='round' stroke='#404040' x1='1015.16' y1='54.9167' x2='1015.16' y2='555.198' stroke-width='9.7222' /></g><g partID='38340'><line stroke-linecap='round' stroke='#404040' x1='914.692' y1='55.1044' x2='1015.16' y2='54.917' stroke-width='9.7222' /></g><g partID='38690'><line stroke-linecap='round' stroke='#404040' x1='14.6031' y1='555.198' x2='314.696' y2='555.104' stroke-width='9.7222' /></g><g partID='38620'><line stroke-linecap='round' stroke='#404040' x1='14.6031' y1='54.9167' x2='14.6031' y2='555.198' stroke-width='9.7222' /></g><g partID='38550'><line stroke-linecap='round' stroke='#404040' x1='114.692' y1='55.1044' x2='14.5984' y2='54.917' stroke-width='9.7222' /></g><circle  fill="black" cx="114.692" cy="55.1044" r="20" stroke-width="0" stroke="none" /></svg>

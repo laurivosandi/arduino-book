@@ -1,8 +1,10 @@
-.. title: Nixie-lambid
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags:  Arduino, Nixie
 .. date: 2013-10-31
+
+Nixie-lambid
+============
 
 Sissejuhatus
 ------------
@@ -10,7 +12,7 @@ Sissejuhatus
 Kõige tavalisemad Nixie-lambid on neoongaasiga täidetud klaaslambid,
 milles kujundi helendama panemiseks on vaja umbkaudu 130V ... 170V.
 Voolu piiramiseks on jällegi takisti tarvilik.
-Arduino abil juhtiud Nixie-kella jaoks leiab minu kirjutatud
+Arduino abil juhitud Nixie-kella jaoks leiab minu kirjutatud
 tarkvara `siit <http://codebender.cc/sketch:14505>`_.
 
 ИН-12А, ИН-12Б, ИН-15А, ИН-15Б
@@ -25,38 +27,28 @@ Erinevused järgnevad:
 * ИН-15А - SI ühikute prefiksid (µ, P, -, +, m, M, K, П, %, n)
 * ИН-15Б - SI ühikud (W, F, Hz, H, V, S, Ω, A)
 
-Foto ИН-12А lambist:
 
-.. image:: img/in-12a.jpg
-    :align: center
+.. figure:: img/in-12a.jpg
 
-ИН-14
------
+    ИН-12А
 
-.. image:: img/in-14.jpg
-    :align: center
+.. figure:: img/in-14.jpg
 
-ИН-16
------
+    ИН-14
 
-.. image:: img/in-16.jpg
-    :align: center
+.. figure:: img/in-16.jpg
 
-ИВ-3
-----
+    ИН-16
 
-.. image:: img/iv-3.jpg
-    :align: center
+.. figure:: img/iv-3.jpg
 
-ИЛЦ2-16/8
----------
+    ИВ-3
 
-.. image:: img/ilc2-16-8.jpg
-    :align: center
+.. figure:: img/ilc2-16-8.jpg
 
-NEC LD8129
-----------
+    ИЛЦ2-16/8
 
-.. image:: img/nec-ld8129.jpg
-    :align: center
+.. figure:: img/nec-ld8129.jpg
+
+    NEC LD8129
 

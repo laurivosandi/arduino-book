@@ -1,9 +1,10 @@
-.. title: Arduino digitaalsisend ja nupuvajutuste lugemine
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. tags: Tiigriülikool, Estonian IT College, Arduino, GPIO
 .. date: 2014-06-02
-.. language: et
 .. license: cc-by-3
+
+Arduino digitaalsisend ja nupuvajutuste lugemine
+================================================
 
 Sissejuhatus
 ------------
@@ -23,7 +24,7 @@ Pesade seadistamine
 Digitaalse sisendi/väljundi pesad on vaikimisi seadistatud digitaalsisendi režiimi
 ning *pinMode* funktsiooniga pole vaja pesasid ümber seadistada.
 Digitaalsisend on vaikimisi ka 
-`kõrge takistusega olekus <logic-values#olek-z>`_ (*high*-*impediance* *state*),
+`kõrge takistusega olekus <logic-values.html#olek-z>`_ (*high*-*impediance* *state*),
 mis tähendab seda, et pesa ei ole ühendatud ei maaga (0V) ega toitepingega (5V).
 Sisendi rajad trükkplaadil korjavad üles elektromagnetmüra lähedalasuvatelt
 radadelt ja keskkonnast ning *digitalRead()* funktsioon tagastab
@@ -45,11 +46,11 @@ Arduino puhul on *pull-up* takistid sisse-ehitatud ning
 neid saab tarkvaraliselt sisse lülitada.
 Praktikas tähendab see seda, nupp ühendatakse maa ning digitaalsisendiga.
 Kui nupp on lahtises olekus, on pesa läbi sisemise ~1.5kΩ *pull-up* takisti
-`justkui Arduino toitepingega ühendatud <logic-values.rst#olek-h>`_.
+`justkui Arduino toitepingega ühendatud <logic-values.html#olek-h>`_.
 ning digitaalsisendit lugedes 
 on väärtus sellel kõrge (5V).
 Nupu alla vajutades lühistatakse digitaalsisend maaga ja 
-`pingenivoo pesal muutub madalaks (0V) <logic-values.rst#olek-0>`_.
+`pingenivoo pesal muutub madalaks (0V) <logic-values.html#olek-0>`_.
 Senikaua kui nupp on alla vajutatud voolab läbi sisemise *pull-up* takisti
 3mA vool toitepingelt maha ning nupu lahti lastes vool katkeb.
 
@@ -81,10 +82,11 @@ Lüliti ühendame 2-nda pesa ning maa külge [#button]_.
     
 Visuaalseld aitab hädast välja järgnev Fritzing skeem:
 
-.. image:: fritzing/arduino-pushbutton_breadboard.svg
-    :align: center
+.. figure:: fritzing/arduino-pushbutton_breadboard.svg
 
-Näitest annab parema variandi luua `katkestuste <arduino-interrupts>`_ (*interrupts*) abil
+    Arduino ühendatud nupuga pessa number 2
+
+Näitest annab parema variandi luua `katkestuste <interrupts.html>`_ (*interrupts*) abil
 
 .. [#button] `Arduino - Button <http://arduino.cc/en/tutorial/button>`_
 .. [#digital-pins] `Arduino - Digital Pins <http://arduino.cc/en/Tutorial/DigitalPins>`_

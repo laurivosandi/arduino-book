@@ -1,9 +1,10 @@
-.. title: Arduino Uno
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. tags: Tiigriülikool, Estonian IT College, Arduino, Atmel, private
 .. date: 2013-10-31
-.. language: et
 .. license: cc-by-3
+
+Arduino Uno
+===========
 
 Sissejuhatus
 ------------
@@ -27,8 +28,9 @@ Riistvara
 Arduino riistvarast on mitu erinevat varianti. Kõige populaarsem neist on
 Arduino Uno, mis baseerub Atmega328P mikrokontrolleril:
 
-.. image:: img/arduino-uno-r2.jpg
-   :align: center
+.. figure:: img/arduino-uno-r2.jpg
+
+    Arduino Uno
 
 Arduino Uno südameks on 28 väljaviiguga Atmega328P mikrokontroller.
 28-st väljaviigust 20 tükki on tarkvaraliselt juhitavad
@@ -36,14 +38,14 @@ Arduino Uno südameks on 28 väljaviiguga Atmega328P mikrokontroller.
 ning neid saab programmeerida täitma erinevaid ülesandeid:
 
 * 20-nel väljaviigul on digitaalse
-  `sisendi lugemise <arduino-digital-input.html>`_ ning
-  `väljundi kirjutamise <arduino-digital-output.html>`_
+  `sisendi lugemise <digital-inputs.html>`_ ning
+  `väljundi kirjutamise <digital-outputs.html>`_
   võimekus, mis tähendab seda, et nende jalgade külge võib ühendada
   nuppe või releesid ning tarkvaras vastavalt nupuvajutusi tuvastada
   või relee kaudu näiteks elektriboilerit juhtida.
 * 6 jalal on `pulsilaiusmodulatsiooni võimekus <pwm-simulator.html>`_,
   mis tähendab et nende jalgadega saab dimmerdada näiteks LED valgusteid.
-* 6 jalga toimivad `10-bitiste analoogsisenditena <arduino-analog-input.html>`_,
+* 6 jalga toimivad `10-bitiste analoogsisenditena <analog-inputs.html>`_,
   mis tähendab et jalale antud pinge vahemikus 0V kuni 5V teisendatakse täisarvuliseks numbriks 0 kuni 1023.
 
 Atmega328P mikrokontrolleril on 32kB välkmälu (*Flash*) tarkvara jaoks.
@@ -107,6 +109,10 @@ nimetatu: C++ baasil teegid, kompileerimise ja püsivara üleslaadimise:
 
     sudo apt-get install arduino
 
-.. [#arduino-uno] `Arduino Uno <http://arduino.cc/en/Main/arduinoBoardUno>`_
-.. [#atmega328p] `Atmega328p pinout <http://wiki.attie.co.uk/wiki/Atmega328p>`_
-.. [#codebender] `codebender <http://codebender.cc/>`_
+Nüüdseks on tekkinud mitmeid veebipõhiseid lahendusi nagu näiteks
+Codebender [#codebender]_ mis võimaldavad hõlpsalt Arduinole kirjutatud koodi
+jagada.
+
+.. [#arduino-uno] http://arduino.cc/en/Main/arduinoBoardUno
+.. [#atmega328p] http://wiki.attie.co.uk/wiki/Atmega328p
+.. [#codebender] http://codebender.cc/

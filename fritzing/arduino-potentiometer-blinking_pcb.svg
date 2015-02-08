@@ -211,7 +211,7 @@
 <circle fill="none" cx="2899.97" xmlns="http://www.w3.org/2000/svg" cy="2000" stroke="#F7BD13" id="connector0pad" r="24.3056" stroke-width="13,88888888888889"/>
 </g>
 </g>
-</g></g><g partID='95390'><line stroke-linecap='round' stroke='#8c3b00' x1='403.693' y1='197.843' x2='2165.66' y2='2061.13' stroke-width='5.55556' /></g><g partID='95410'><line stroke-linecap='round' stroke='#fa50e6' x1='2663.45' y1='2063.54' x2='306.359' y2='194.921' stroke-width='5.55556' /></g><g partID='95430'><line stroke-linecap='round' stroke='#000000' x1='1698.49' y1='177.778' x2='212.333' y2='177.782' stroke-width='5.55556' /></g><g partID='12182'><g transform='translate(569.444,107.782)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g transform="matrix(1, 0, 0, 1, 0, 114.722)">
+</g></g><g partID='95870'><line stroke-linecap='round' stroke='#8c3b00' x1='403.693' y1='197.843' x2='2165.66' y2='2061.13' stroke-width='5.55556' /></g><g partID='95890'><line stroke-linecap='round' stroke='#fa50e6' x1='2663.45' y1='2063.54' x2='306.359' y2='194.921' stroke-width='5.55556' /></g><g partID='95910'><line stroke-linecap='round' stroke='#000000' x1='1698.49' y1='177.778' x2='212.333' y2='177.782' stroke-width='5.55556' /></g><g partID='12182'><g transform='translate(569.444,107.782)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g transform="matrix(1, 0, 0, 1, 0, 114.722)">
  <g  id="silkscreen">
   <g >
    <polyline  fill="none" points="409.125,-114.722,519.681,-114.722,519.681,454.722,409.125,454.722" stroke="#FFFFFF" id="0.1.1.0" stroke-width="7.05834"/>

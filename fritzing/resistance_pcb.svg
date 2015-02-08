@@ -31,7 +31,7 @@
   <circle xmlns="http://www.w3.org/2000/svg" fill="none" cx="70" cy="170" stroke="rgb(255, 191, 0)" id="connector1pin" r="29" stroke-width="20"/>
  </g>
 </g>
-</g></g><g partID='101790'><line stroke-linecap='round' stroke='#1fb551' x1='77.7778' y1='396.222' x2='77.7778' y2='143.833' stroke-width='5.55556' /></g><g partID='101810'><line stroke-linecap='round' stroke='#a37911' x1='457.156' y1='131.089' x2='99.7409' y2='309.796' stroke-width='5.55556' /></g><g partID='19272'><g transform='translate(40.2778,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
+</g></g><g partID='854123590'><line stroke-linecap='round' stroke='#a37911' x1='77.7778' y1='396.222' x2='77.7778' y2='143.833' stroke-width='5.55556' /></g><g partID='854123610'><line stroke-linecap='round' stroke='#33ffc5' x1='457.156' y1='131.089' x2='99.7409' y2='309.796' stroke-width='5.55556' /></g><g partID='19272'><g transform='translate(40.2778,77.7778)' ><g xmlns="http://www.w3.org/2000/svg" id="silkscreen">
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="43" x1="75" y2="43" stroke-width="10" x2="147"/>
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="43" x1="347" y2="43" stroke-width="10" x2="400"/>
  <line xmlns="http://www.w3.org/2000/svg" stroke="white" y1="10" x1="147" y2="10" stroke-width="10" x2="347"/>

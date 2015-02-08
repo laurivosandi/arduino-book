@@ -1,230 +1,238 @@
-<!--
-.. title: Valgusdioodi skeemi simulaator
-.. author: lauri.vosandi@gmail.com
-.. license: cc-by-3
-.. tags: private, Arduino, Estonian IT College
-.. date: 2013-10-31
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valgusdioodi skeemi simulaator</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Lauri Võsandi, lauri.vosandi@gmail.com"/>
+    <meta name="published" content="2013-10-31"/>
+    <meta name="license" content="cc-by-3"/>
+    <meta name="tags" content="Arduino, Estonian IT College"/>
+</head>
 
-<script type="text/javascript" src="js/led-simulator.js"></script>
-<script type="text/javascript" src="js/core.js"></script>
+<body>
+    <h1>Valgusdioodi skeemi simulaator</h1>
+    <div class="document">
+        <script type="text/javascript" src="js/led-simulator.js"></script>
+        <script type="text/javascript" src="js/core.js"></script>
 
 
-<div class="section">
+        <div class="section">
+            <h1>Valgusdioodi simulaator</h1>
 
-    <img src="fritzing/9v-led_schematic.png" style="float:right;   margin-top: 0px; max-width: 40%; height: auto;"/>
+            <!-- <object type="image/svg+xml" data="fritzing/9v-led_breadboard.svg" style="float:right; margin-top: 0px; max-width: 40%; height: auto;"/> -->
 
-    <div>
-        <label for="power_supply_voltage">Toiteallika pinge (V)</label>
-        <input id="power_supply_voltage" type="number" min="3.3" max="100" placeholder="5" value="5.0" step="0.1"/>
+            <div>
+                <label for="power_supply_voltage">Toiteallika pinge (V)</label>
+                <input id="power_supply_voltage" type="number" min="3.3" max="100" placeholder="5" value="5.0" step="0.1"/>
+            </div>
+            <div>
+                <label for="current_max">Maksimaalne vool (A)</label>
+                <input id="current_max" type="number" min="0.010" max="1.000" placeholder="0.020" value="0.020" step="0.005"/>
+            </div>
+            <div>
+                <label for="led_count">Jadamisi ühendatud valgusdioodide arv</label>
+                <input id="led_count" type="number" min="1" max="999" placeholder="1" value="1" step="1"/>
+            </div>
+
+            <div>
+                <label for="led_type">Valgusdioodi tüüp:</label>
+                <select id="led_type">
+                    <option
+                        value="ir"
+                        data-semiconductor="GaAs;AlGaAs"
+                        data-voltage-drop-min=""
+                        data-voltage-drop-max="1.63"
+                        data-wavelength-max=""
+                        data-wavelength-min="760">Infrapuna</option>
+                    <option
+                        value="f00"
+                        data-typical-efficiency="0.39"
+                        data-semiconductor="AlGaAs;GaAsP;AlGaInP;GaP"
+                        data-voltage-drop-min="1.63"
+                        data-voltage-drop-max="2.03"
+                        data-wavelength-max="760"
+                        data-wavelength-min="610">Punane</option>
+                    <option
+                        value="f80"
+                        data-typical-efficiency="0.29"
+                        data-semiconductor="GaAsP;AlGaInP;GaP"
+                        data-voltage-drop-min="2.03"
+                        data-voltage-drop-max="2.10"
+                        data-wavelength-max="610"
+                        data-wavelength-min="590">Oranž</option>
+                    <option
+                        value="ff0"
+                        data-semiconductor="GaAsP;AlGaInP;GaP"
+                        data-voltage-drop-min="2.10"
+                        data-voltage-drop-max="2.18"
+                        data-wavelength-max="590"
+                        data-wavelength-min="570">Kollane</option>
+                    <option selected
+                        value="0f0"
+                        data-typical-efficiency="0.15"
+                        data-semiconductor="GaP;AlGaInP;AlGaP;InGaN;GaN"
+                        data-voltage-drop-min="1.9"
+                        data-voltage-drop-max="4.0"
+                        data-wavelength-max="570"
+                        data-wavelength-min="500">Roheline</option>
+                    <option
+                        value="00f"
+                        data-typical-efficiency="0.35"
+                        data-semiconductor="ZnSe;InGaN;SiC"
+                        data-voltage-drop-min="2.48"
+                        data-voltage-drop-max="3.7"
+                        data-wavelength-max="500"
+                        data-wavelength-min="450">Sinine</option>
+                    <option
+                        value="0ff"
+                        data-semiconductor="InGaN"
+                        data-voltage-drop-min="2.76"
+                        data-voltage-drop-max="4.0"
+                        data-wavelength-max="450"
+                        data-wavelength-min="400">Violetne</option>
+                    <option
+                        value="uv"
+                        data-semiconductor="AlN;AlGaN;AlGaInN;BoN"
+                        data-voltage-drop-min="3.1"
+                        data-voltage-drop-max="4.4"
+                        data-wavelength-max="400"
+                        data-wavelength-min="210">Ultravioletne</option>
+                </select>
+            </div>
+
+            <!--
+            <div>
+                <label for="given_driver">Driver:</label>
+                <select id="given_driver">
+                    <option
+                        value="none"
+                        data-voltage-drop-min="0"
+                        data-voltage-drop-max="0">None</option>
+                    <option
+                        value="uln2803"
+                        data-voltage-drop-min="1.1"
+                        data-voltage-drop-max="1.6">ULN2803</option>
+                </select>
+            </div>
+            -->
+
+            <button onClick="onBodyLoad();">Arvuta!</button>
+
+
+        </div>
+        <div class="section">
+
+            <h2 style="clear:both;">Antud</h2>
+
+            <p>Toiteallika pinge:</p>
+            <div class="math" id="output_power_supply_voltage">-</div>
+
+
+            <p>Valgusdioodi värvuse järgi saab tavaliselt tuvastada tüüpparameetrid,
+            nagu pingelang valgusdioodil, valgusviljakus</p>
+
+            <div class="math" id="output_led_voltage_drop_min" style="display:none;">-</div>
+            <div class="math" id="output_led_voltage_drop_max" style="display:none;">-</div>
+            <div class="math" id="output_led_voltage_drop">-</div>
+            <div class="math" id="output_led_efficiency">-</div>
+
+            <p>Maksimaalne vool ning jadamisi ühendatud valgusdioodide arv:</p>
+
+            <div class="math" id="output_current_max">-</div>
+            <div class="math" id="output_led_count">-</div>
+
+        </div>
+        <div class="section">
+
+            <h2>Takisti väärtuse leidmine</h2>
+            <p>Peamine häda valgusdioodi skeemis on voolu piiramiseks sobiva takisti leidmine:</p>
+            <div class="math">\begin{equation*}\Delta U_{resistor} = ?\end{equation*}</div>
+            <p>Esmalt arvutame pingelangu jadamisi ühendatud valgusdioodide massiivil:</p>
+            <div class="math" id="output_array_voltage_drop_min">-</div>
+            <div class="math" id="output_array_voltage_drop_max">-</div>
+            <div class="math" id="output_array_voltage_drop">-</div>
+            <p>Seejärel saame arvutada pingelangu takistil:</p>
+            <div class="math" id="output_resistor_voltage_drop_formula">-</div>
+            <div class="math" id="output_resistor_voltage_drop_min" style="display:none;">-</div>
+            <div class="math" id="output_resistor_voltage_drop_max" style="display:none;">-</div>
+            <div class="math" id="output_resistor_voltage_drop">-</div>
+            <p id="output_low_power_supply_voltage"><i>Toitepinge on liiga madal!</i></p>
+            <p>Teades maksimaalset voolu ning pingelangu takistil saame arvutada takisti väärtuse:</p>
+            <div class="math" id="output_resistance_min" style="display:none;">-</div>
+            <div class="math" id="output_resistance_max" style="display:none;">-</div>
+            <div class="math" id="output_resistance">-</div>
+
+        </div>
+        <div class="section">
+
+            <h2>Energiatarve</h2>
+            <p>Teades pingelangu valgusdioodide massiivil ning maksimaalset voolu,
+            saame arvutada maksimaalse võimsuse mida valgusdioodid kokku kasutada võivad:</p>
+            <div class="math" id="output_resistor_power_min" style="display:none;">-</div>
+            <div class="math" id="output_resistor_power_max" style="display:none;">-</div>
+            <div class="math" id="output_resistor_power" style="display:none;">-</div>
+
+
+            <div class="math" id="output_array_power_min">-</div>
+            <div class="math" id="output_array_power_max">-</div>
+            <div class="math" id="output_array_power">-</div>
+
+            <p>Teades kogu skeemi toitepinget ning maksimaalset voolu,
+            võime arvutada kogu skeemi maksimaalse tarbitava võimsuse:</p>
+
+
+            <div class="math" id="output_total_power">-</div>
+
+        </div>
+        <div class="section">
+
+            <h2>Elektriline efektiivsus</h2>
+            <p>efektiivsus sõltub kasuliku töö ning kogu töö suhtest.
+            Kasulik töö antud juhul on valgusdioodi toitmine ning kogu töö sisaldab ka
+            takistil soojuseks muutunud energiat:</p>
+            <div class="math" id="output_efficiency_formula">
+            \begin{equation*}\eta = \frac{P_{array}}{P}\end{equation*}
+            </div>
+            <div class="math" id="output_efficiency_min">-</div>
+            <div class="math" id="output_efficiency_max">-</div>
+            <div class="math" id="output_efficiency">-</div>
+
+        </div>
+        <div class="section">
+
+            <h2>Valgusviljakus</h2>
+            <p>Kogu valgusdioodi tarbitud energia ei muutu footoniteks,
+            osa eraldub ka soojusena.
+            Teades skeemi efektiivsust ning ühe valgusdioodi valgusviljakust saame
+            arvutada kogu skeemi valgusviljakuse:</p>
+
+            <div class="math" id="output_luminous_efficiency_formula">
+            \begin{equation*}\eta_{luminous} = \eta_{circuit} \times \eta_{LED}\end{equation*}
+            </div>
+            <div class="math" id="output_luminous_efficiency_min">-</div>
+            <div class="math" id="output_luminous_efficiency_max">-</div>
+            <div class="math" id="output_luminous_efficiency">-</div>
+
+        </div>
+        <div class="section">
+
+            <h2>Võrdväärne hõõglamp</h2>
+            <p>Tavalise hõõglambi valgusviljakus on umbkaudu 2.2%, mis tähendab et hõõglamp
+            on ütlematagi ebaefektiivne seade.
+            Valgusdiood sobivas skeemis on oluliselt suurema efektiivsusega.
+            Teades käesoleva skeemi valgusviljakust saame arvutada heleduse poolest
+            ekvivalentse hõõglambi võimsuse:
+
+            <div class="math" id="output_equiv_incand_light_bulb">-</div>
+
+        </div>
+
+        <!--
+        <h1>Heat dissipation</h1>
+        <p>The energy consumed by the resistor is dissipated as heat
+        aswell as the energy consumed by the LED and not turned into photons:</p>
+        -->
     </div>
-    <div>
-        <label for="current_max">Maksimaalne vool (A)</label>
-        <input id="current_max" type="number" min="0.010" max="1.000" placeholder="0.020" value="0.020" step="0.005"/>
-    </div>
-    <div>
-        <label for="led_count">Jadamisi ühendatud valgusdioodide arv</label>
-        <input id="led_count" type="number" min="1" max="999" placeholder="1" value="1" step="1"/>
-    </div>
 
-    <div>
-        <label for="led_type">Valgusdioodi tüüp:</label>
-        <select id="led_type">
-            <option
-                value="ir"
-                data-semiconductor="GaAs;AlGaAs"
-                data-voltage-drop-min=""
-                data-voltage-drop-max="1.63"
-                data-wavelength-max=""
-                data-wavelength-min="760">Infrapuna</option>
-            <option
-                value="f00"
-                data-typical-efficiency="0.39"
-                data-semiconductor="AlGaAs;GaAsP;AlGaInP;GaP"
-                data-voltage-drop-min="1.63"
-                data-voltage-drop-max="2.03"
-                data-wavelength-max="760"
-                data-wavelength-min="610">Punane</option>
-            <option
-                value="f80"
-                data-typical-efficiency="0.29"
-                data-semiconductor="GaAsP;AlGaInP;GaP"
-                data-voltage-drop-min="2.03"
-                data-voltage-drop-max="2.10"
-                data-wavelength-max="610"
-                data-wavelength-min="590">Oranž</option>
-            <option
-                value="ff0"
-                data-semiconductor="GaAsP;AlGaInP;GaP"
-                data-voltage-drop-min="2.10"
-                data-voltage-drop-max="2.18"
-                data-wavelength-max="590"
-                data-wavelength-min="570">Kollane</option>
-            <option selected
-                value="0f0"
-                data-typical-efficiency="0.15"
-                data-semiconductor="GaP;AlGaInP;AlGaP;InGaN;GaN"
-                data-voltage-drop-min="1.9"
-                data-voltage-drop-max="4.0"
-                data-wavelength-max="570"
-                data-wavelength-min="500">Roheline</option>
-            <option
-                value="00f"
-                data-typical-efficiency="0.35"
-                data-semiconductor="ZnSe;InGaN;SiC"
-                data-voltage-drop-min="2.48"
-                data-voltage-drop-max="3.7"
-                data-wavelength-max="500"
-                data-wavelength-min="450">Sinine</option>
-            <option
-                value="0ff"
-                data-semiconductor="InGaN"
-                data-voltage-drop-min="2.76"
-                data-voltage-drop-max="4.0"
-                data-wavelength-max="450"
-                data-wavelength-min="400">Violetne</option>
-            <option
-                value="uv"
-                data-semiconductor="AlN;AlGaN;AlGaInN;BoN"
-                data-voltage-drop-min="3.1"
-                data-voltage-drop-max="4.4"
-                data-wavelength-max="400"
-                data-wavelength-min="210">Ultravioletne</option>
-        </select>
-    </div>
-
-    <!--
-    <div>
-        <label for="given_driver">Driver:</label>
-        <select id="given_driver">
-            <option
-                value="none"
-                data-voltage-drop-min="0"
-                data-voltage-drop-max="0">None</option>
-            <option
-                value="uln2803"
-                data-voltage-drop-min="1.1"
-                data-voltage-drop-max="1.6">ULN2803</option>
-        </select>
-    </div>
-    -->
-
-    <button onClick="onBodyLoad();">Arvuta!</button>
-
-
-</div>
-<div class="section">
-
-    <h2 style="clear:both;">Antud</h2>
-
-    <p>Toiteallika pinge:</p>
-    <div class="math" id="output_power_supply_voltage"></div>
-
-
-    <p>Valgusdioodi värvuse järgi saab tavaliselt tuvastada tüüpparameetrid,
-    nagu pingelang valgusdioodil, valgusviljakus</p>
-
-    <div class="math" id="output_led_voltage_drop_min" style="display:none;"></div>
-    <div class="math" id="output_led_voltage_drop_max" style="display:none;"></div>
-    <div class="math" id="output_led_voltage_drop"></div>
-    <div class="math" id="output_led_efficiency"></div>
-
-    <p>Maksimaalne vool ning jadamisi ühendatud valgusdioodide arv:</p>
-
-    <div class="math" id="output_current_max"></div>
-    <div class="math" id="output_led_count"></div>
-
-</div>
-<div class="section">
-
-    <h2>Takisti väärtuse leidmine</h2>
-    <p>Peamine häda valgusdioodi skeemis on voolu piiramiseks sobiva takisti leidmine:</p>
-    <div class="math">\begin{equation*}\Delta U_{resistor} = ?\end{equation*}</div>
-    <p>Esmalt arvutame pingelangu jadamisi ühendatud valgusdioodide massiivil:</p>
-    <div class="math" id="output_array_voltage_drop_min"></div>
-    <div class="math" id="output_array_voltage_drop_max"></div>
-    <div class="math" id="output_array_voltage_drop"></div>
-    <p>Seejärel saame arvutada pingelangu takistil:</p>
-    <div class="math" id="output_resistor_voltage_drop_formula"></div>
-    <div class="math" id="output_resistor_voltage_drop_min" style="display:none;"></div>
-    <div class="math" id="output_resistor_voltage_drop_max" style="display:none;"></div>
-    <div class="math" id="output_resistor_voltage_drop"></div>
-    <p id="output_low_power_supply_voltage"><i>Toitepinge on liiga madal!</i></p>
-    <p>Teades maksimaalset voolu ning pingelangu takistil saame arvutada takisti väärtuse:</p>
-    <div class="math" id="output_resistance_min" style="display:none;"></div>
-    <div class="math" id="output_resistance_max" style="display:none;"></div>
-    <div class="math" id="output_resistance"></div>
-
-</div>
-<div class="section">
-
-    <h2>Energiatarve</h2>
-    <p>Teades pingelangu valgusdioodide massiivil ning maksimaalset voolu,
-    saame arvutada maksimaalse võimsuse mida valgusdioodid kokku kasutada võivad:</p>
-    <div class="math" id="output_resistor_power_min" style="display:none;"></div>
-    <div class="math" id="output_resistor_power_max" style="display:none;"></div>
-    <div class="math" id="output_resistor_power" style="display:none;"></div>
-
-
-    <div class="math" id="output_array_power_min"></div>
-    <div class="math" id="output_array_power_max"></div>
-    <div class="math" id="output_array_power"></div>
-
-    <p>Teades kogu skeemi toitepinget ning maksimaalset voolu,
-    võime arvutada kogu skeemi maksimaalse tarbitava võimsuse:</p>
-
-
-    <div class="math" id="output_total_power"></div>
-
-</div>
-<div class="section">
-
-    <h2>Elektriline efektiivsus</h2>
-    <p>efektiivsus sõltub kasuliku töö ning kogu töö suhtest.
-    Kasulik töö antud juhul on valgusdioodi toitmine ning kogu töö sisaldab ka
-    takistil soojuseks muutunud energiat:</p>
-    <div class="math" id="output_efficiency_formula">
-    \begin{equation*}\eta = \frac{P_{array}}{P}\end{equation*}
-    </div>
-    <div class="math" id="output_efficiency_min"></div>
-    <div class="math" id="output_efficiency_max"></div>
-    <div class="math" id="output_efficiency"></div>
-
-</div>
-<div class="section">
-
-    <h2>Valgusviljakus</h2>
-    <p>Kogu valgusdioodi tarbitud energia ei muutu footoniteks,
-    osa eraldub ka soojusena.
-    Teades skeemi efektiivsust ning ühe valgusdioodi valgusviljakust saame
-    arvutada kogu skeemi valgusviljakuse:</p>
-
-    <div class="math" id="output_luminous_efficiency_formula">
-    \begin{equation*}\eta_{luminous} = \eta_{circuit} \times \eta_{LED}\end{equation*}
-    </div>
-    <div class="math" id="output_luminous_efficiency_min"></div>
-    <div class="math" id="output_luminous_efficiency_max"></div>
-    <div class="math" id="output_luminous_efficiency"></div>
-
-</div>
-<div class="section">
-
-    <h2>Võrdväärne hõõglamp</h2>
-    <p>Tavalise hõõglambi valgusviljakus on umbkaudu 2.2%, mis tähendab et hõõglamp
-    on ütlematagi ebaefektiivne seade.
-    Valgusdiood sobivas skeemis on oluliselt suurema efektiivsusega.
-    Teades käesoleva skeemi valgusviljakust saame arvutada heleduse poolest
-    ekvivalentse hõõglambi võimsuse:
-
-    <div class="math" id="output_equiv_incand_light_bulb"></div>
-
-</div>
-
-<!--
-<h1>Heat dissipation</h1>
-<p>The energy consumed by the resistor is dissipated as heat
-aswell as the energy consumed by the LED and not turned into photons:</p>
--->
-
-
-
+</body>
+</html>

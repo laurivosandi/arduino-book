@@ -1,8 +1,10 @@
-.. title: Füüsikatunni meeldetuletus
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. date: 2013-10-31
+
+Füüsikatunni meeldetuletus
+==========================
 
 Sissejuhatus
 ------------
@@ -90,8 +92,9 @@ Oomi seadus kõneleb juhis tekkiva voolu seosest pinge ning juhi takistusega.
 Kõige lihtsam skeem koosneb vooluallikast, elektritarbijast ning juhtmetest millega 
 nad jadamisi vooluringiks on ühendatud:
 
-.. image:: fritzing/resistance_schematic.svg
-    :align: center
+.. figure:: fritzing/resistance_schematic.svg
+
+    Vooluallikas (power supply) ning takisti (resistor) vooluringis
 
 Ütleme, et tegu on raadio teel juhitava helikopteri skeemiga ning
 VCC1 on näiteks aku ning R1 on helikopteri mootor.

@@ -1,8 +1,10 @@
-.. title: Nokia 5110 LCD Shield v2.0
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College, PCD8544
 .. date: 2014-06-07
+
+Nokia 5110 LCD Shield v2.0
+==========================
 
 Sissejuhatus
 ------------
@@ -41,8 +43,9 @@ IT Kolledži robootikaklubis on kättesaadavad
 Nu Electronics toodetud Nokia 5110 LCD Shield v2.0 plaadid,
 mis on nii Arduino Uno kui Arduino Mega-ga ühilduvad:
 
-.. image:: img/nokia-5110-lcd-shield.jpg
-    :align: center
+.. figure:: img/nokia-5110-lcd-shield.jpg
+
+    Nu Electronics Nokia 5110 LCD Shield v2.0
 
 Plaadil olev LCD-ekraan on sama eelnimetatud Philips PCD8544 kontrolleriga
 ning ekraani jalad on ühendatud Arduinoga järgnevalt:

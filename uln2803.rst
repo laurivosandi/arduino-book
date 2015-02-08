@@ -1,15 +1,18 @@
-.. title: ULN2803 Darlington array
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College
 .. date: 2013-10-31
 
+ULN2803 Darlington array
+========================
+
 ULN2803 on kaheksast Darlington transistorist koosnev mikroskeem,
 mis võimaldab nii TTL (3.3V) kui ka CMOS (5V) pingetasemega loogika abil
 juhtida kaheksat kuni 50V 0.5A ahelat.
 
-.. image:: img/uln2803.jpg
-    :align: center
+.. figure:: img/uln2803.jpg
+
+    ULN2803 mikroskeem    
 
 ULN2803 *datasheet* annab meile ka väljaviikude tähistused:
 
@@ -30,8 +33,7 @@ ULN2803 *datasheet* annab meile ka väljaviikude tähistused:
 Nimetatud dokumendist leiab ka mikroskeemis realiseeritud komponentide skeemi,
 kus B-C jala paarile vastab järgnev:
 
-.. image:: img/uln2803-representative-schematic-diagram.png
-    :align: center
+.. figure:: img/uln2803-representative-schematic-diagram.png
 
 Nagu näha koosneb üks Darlington transistor kahest NPN-transistorist.
 Kui tavalise transistori juhtimiseks näiteks 3.3V pingenivooga oleks tarvis 
@@ -52,21 +54,26 @@ kolmest jadamisi ühendatud punasest,
 kolmest jadamisi ühendatud rohelisest ning
 kolmest jadamisi ühendatud sinisest valgusdioodist:
 
-.. image:: img/10w-rgb-led.jpg
-    :align: center
+.. figure:: img/10w-rgb-led.jpg
+
+    10W RGB LED
 
 Järgnevas skeemis olevad takistid on vajalikud selleks, et
 LED-id läbi ei põleks:
 
-.. image:: fritzing/uln2803-rgb-led_breadboard.svg
-    :align: center
+.. figure:: fritzing/uln2803-rgb-led_breadboard.svg
+
+    RGB LED-i juhtimine ULN2803 abil
     
 Elu teeb oluliselt lihtsamaks Arduino prototüüpimisplaadi (*breadboard*) ning
 vastavate ühendusjuhtmete (*jumper* *wires*) olemasolu.
 Käesoleva skeemi takistite väärtuseks osutusid katsetamise käigus
 5.6Ω punase värvuse jaoks ning 3.3Ω sinise-rohelise värvuse jaoks:
 
-.. image:: img/uln2803-rgb-led.jpg
+.. figure:: img/uln2803-rgb-led.jpg
+
+    Skeem töös
+
 
 Takisti väärtuste leidmine
 ==========================

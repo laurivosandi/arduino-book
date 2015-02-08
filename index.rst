@@ -1,7 +1,10 @@
-.. title: Arduino
 .. author: Lauri Võsandi <lauri.vosandi@gmail.com>
 .. license: cc-by-3
 .. tags: Tiigriülikool, Arduino, Estonian IT College, Fritzing, Atmel
+.. date: 2013-10-31
+
+Arduino
+=======
 
 Sissejuhatus
 ------------
@@ -39,12 +42,12 @@ Elektroonika alused:
 Arduino:
 
 * `Arduino Uno <arduino-uno.html>`_
-* `Arduino Mega 2560 <arduino-mega2560.html>`_
+* `Arduino Mega 2560 <arduino-mega-2560.html>`_
 * Jadaliides ²
-* `Digitaalväljund <arduino-digital-output.html>`_
-* `Digitaalsisend <arduino-digital-input.html>`_
-* `Analoogsisend <arduino-analog-input.html>`_
-* `Katkestused <arduino-interrupts.html>`_
+* `Digitaalväljund <digital-outputs.html>`_
+* `Digitaalsisend <digital-inputs.html>`_
+* `Analoogsisend <analog-inputs.html>`_
+* `Katkestused <interrupts.html>`_
 * Taimerid ²
 * `Pulsilaiusmodulatsioon <pwm-simulator.html>`_
 * `Loogika olekud <logic-values.html>`_
@@ -76,15 +79,6 @@ Arduino Wireless shieldiga ühilduvad moodulid:
 * `Bluetooth Bee <http://www.seeedstudio.com/wiki/Bluetooth_Bee>`_
 
 
-Arduino suvekool
-----------------
-
-Hetkel on plaanitud korraldada IT Kolledžis
-`Arduino suvekool <arduino-summer-school.html>`_
-26.-29. juunil 2014 aastas eesmärgiga populariseerida elektroonikat
-keskkooli lõpetajate ning IT Kolledži esmakursuslaste hulgas.
-
-
 Muu
 ---
 
@@ -95,6 +89,7 @@ Fritzing jooniste värvuste tähendused, juhul kui pole teistmoodi märgitud:
 * Kollane - 12V toide
 * Oranž - pulsslaiusmodulatsiooni signaal (0-5V)
 * Roheline - pulsslaiusmoduleeritud toitepinge (0-12V)
+
 
 Viited
 ------
